@@ -6,7 +6,7 @@
   "properties": {
     "heroImage": {
       "type": "string",
-      "title": "Preview image",
+      "title": "Preview image预览图片",
       "default": "",
       "inputType": "Asset:image",
       "validators": [],
@@ -16,7 +16,7 @@
     "title": {
       "type": "string",
       "required": true,
-      "default": "New Course Title",
+      "default": "New Course Title新课程标题",
       "inputType": "Text",
       "validators": [
         "required"
@@ -58,7 +58,7 @@
     },
     "_start": {
       "type": "object",
-      "title": "Start settings",
+      "title": "Start settings开始设置",
       "help": "The start settings allow you to control which page is rendered when a course loads, potentially bypassing the menu.",
       "properties": {
         "_isEnabled": {

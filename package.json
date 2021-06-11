@@ -20,6 +20,7 @@
     "migrate": "migrate --config conf/migrate.json --template-file migrations/helpers/template.js"
   },
   "dependencies": {
+    "adapt-cli": "^2.1.13",
     "archiver": "^3.1.1",
     "async": "^3.1.0",
     "bcrypt-nodejs": "0.0.3",
