@@ -171,7 +171,7 @@ define([
   function buildFieldsets(schema, options) {
     var fieldsets = {
       general: { key: 'general', legend: Origin.l10n.t('通用设置'), fields: [] },
-      properties: { key: 'properties', legend: Origin.l10n.t('app.scaffold.properties'), fields: [] },
+      properties: { key: 'properties', legend: Origin.l10n.t('脚手架'), fields: [] },
       settings: { key: 'settings', legend: Origin.l10n.t('可选设置'), fields: [] },
       extensions: { key: 'extensions', legend: Origin.l10n.t('app.scaffold.extensions'), fields: [ '_extensions' ] }
     };
