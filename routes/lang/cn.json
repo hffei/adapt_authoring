@@ -48,7 +48,7 @@
   "app.deleteusertransfer": "把所有权转给我",
   "app.deleteuserdelete": "删除所有未共享的课程",
   "app.deleteusershare": "分享所有的课程",
-  "app.confirmdeleteuser": "删除 <br/> <b>%{email} </b> <br/> <br/> <br/>%{courseoption} <br/> <br/> <br/> 这是一个单程旅行。继续？",
+  "app.confirmdeleteuser": "删除 <br/> <b>%{email} </b> <br/> <br/> <br/> %{courseoption} <br/> <br/> <br/> 这是一个不可撤销的操作。继续？",
   "app.confirmdeleteusertransfer": "这个用户的课程的所有权将转移给你。",
   "app.confirmdeleteuserdelete": "所有这个用户的非共享课程都将被删除。",
   "app.confirmdeleteusershare": "所有用户的课程将被共享，所有权将转移给您。",
