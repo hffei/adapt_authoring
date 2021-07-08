@@ -74,7 +74,7 @@ installHelpers.checkPrimaryDependencies(function(error) {
           name: 'authoringToolRepository',
           type: 'input',
           message: 'Git repository URL to be used for the authoring tool source code',
-          default: 'https://github.com/hffei/adapt_learning.git'
+          default: 'https://github.com/hffei/adapt_authoring.git'
         },
         {
           name: 'frameworkRepository',
@@ -86,7 +86,7 @@ installHelpers.checkPrimaryDependencies(function(error) {
           name: 'frameworkRevision',
           type: 'input',
           message: 'Specific git revision to be used for the framework. Accepts any valid revision type (e.g. branch/tag/commit)',
-          default: 'master'
+          default: 'dev'
         }
       ],
       database: {
@@ -96,7 +96,7 @@ installHelpers.checkPrimaryDependencies(function(error) {
             type: 'input',
             message: 'Master database name',
             validate: installHelpers.inputHelpers.alphanumValidator,
-            default: 'adapt-tenant-master'
+            default: 'adapt-tenant-builder'
           },
           {
             name: 'useConnectionUri',
