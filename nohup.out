@@ -78,3 +78,16 @@ TypeError: Cannot create property 'Symbol(level)' on string 'info'
     at ReadFileContext.callback (/adapt_authoring/node_modules/graceful-fs/graceful-fs.js:115:16)
     at FSReqCallback.readFileAfterOpen [as oncomplete] (fs.js:282:13)
     at FSReqCallback.callbackTrampoline (internal/async_hooks.js:134:14)
+(node:17612) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17612) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:17612) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:17612) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+info [09 Jul 21 11:19:35 +08:00] configuration loaded from /adapt_authoring/conf/config.json
+info [09 Jul 21 11:19:35 +08:00] Supporting the following authentication types:
+info [09 Jul 21 11:19:35 +08:00] - local
+info [09 Jul 21 11:19:35 +08:00] Connection established: adapt-tenant-builder
+info [09 Jul 21 11:19:37 +08:00] Adapt authoring tool 0.10.5.
+info [09 Jul 21 11:19:37 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
+info [09 Jul 21 11:19:37 +08:00] Run node upgrade.js to update your install.
+info [09 Jul 21 11:19:37 +08:00] Server started listening on port 5000
