@@ -217,7 +217,7 @@
   "app.filetypeaudio": "Audio",
   "app.filetypevideo": "Video",
   "app.assetsize": "Size",
-  "app.assetduration": "Duration",
+  "app.assetduration": "DurationABC",
   "app.assetdimensions": "Dimensions",
   "app.title": "Title",
   "app.displaytitle": "Display title",

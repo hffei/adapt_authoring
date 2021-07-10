@@ -91,3 +91,421 @@ info [09 Jul 21 11:19:37 +08:00] Adapt authoring tool 0.10.5.
 info [09 Jul 21 11:19:37 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
 info [09 Jul 21 11:19:37 +08:00] Run node upgrade.js to update your install.
 info [09 Jul 21 11:19:37 +08:00] Server started listening on port 5000
+(node:17687) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17687) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:17687) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:17687) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+info [09 Jul 21 11:23:45 +08:00] configuration loaded from /adapt_authoring/conf/config.json
+info [09 Jul 21 11:23:45 +08:00] Supporting the following authentication types:
+info [09 Jul 21 11:23:45 +08:00] - local
+info [09 Jul 21 11:23:46 +08:00] Connection established: adapt-tenant-builder
+info [09 Jul 21 11:23:48 +08:00] Adapt authoring tool 0.10.5.
+info [09 Jul 21 11:23:48 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
+info [09 Jul 21 11:23:48 +08:00] Run node upgrade.js to update your install.
+info [09 Jul 21 11:23:48 +08:00] Server started listening on port 5000
+info [09 Jul 21 11:49:10 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60e6f917ac8675385a512d37
+info [09 Jul 21 11:49:10 +08:00] Writing build to /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e6f917ac8675385a512d37/build/.rebuild
+info [09 Jul 21 11:49:14 +08:00] Retrieving JSON
+info [09 Jul 21 11:49:14 +08:00] All assets processed
+info [09 Jul 21 11:49:14 +08:00] 3.1. Ensuring framework build exists
+info [09 Jul 21 11:49:14 +08:00] 3.2. Using theme: 60e6ef7eef54b535cafbecdd
+info [09 Jul 21 11:49:14 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [09 Jul 21 11:49:14 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60e6f917ac8675385a512d37/build --theme=60e6ef7eef54b535cafbecdd --menu=adapt-contrib-boxMenu
+info [09 Jul 21 11:49:21 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e6ef7eef54b535cafbecdd
+- adapt-contrib-narrative
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60e6f917ac8675385a512d37/build/'
+>> Using theme '60e6ef7eef54b535cafbecdd'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e6ef7eef54b535cafbecdd does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+>> Cache skipping file: src/plugins.js
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-09 11:49:14 UTC+8)
+copy:libraries       95ms  ▇ 1%
+copy:required        88ms  ▇ 1%
+less:compile        770ms  ▇▇▇▇▇ 11%
+handlebars:compile  303ms  ▇▇ 4%
+loading javascript  175ms  ▇▇ 2%
+javascript:compile   5.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 73%
+Total 7s
+
+
+info [09 Jul 21 11:57:52 +08:00] Retrieving JSON
+info [09 Jul 21 11:57:52 +08:00] All assets processed
+info [09 Jul 21 12:00:16 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60e6f917ac8675385a512d37
+info [09 Jul 21 12:00:16 +08:00] Writing build to /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e6f917ac8675385a512d37/build/.rebuild
+info [09 Jul 21 12:04:34 +08:00] Retrieving JSON
+info [09 Jul 21 12:04:34 +08:00] All assets processed
+info [09 Jul 21 12:04:34 +08:00] 3.1. Ensuring framework build exists
+info [09 Jul 21 12:04:34 +08:00] 3.2. Using theme: 60e6ef7eef54b535cafbecdd
+info [09 Jul 21 12:04:34 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [09 Jul 21 12:04:34 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60e6f917ac8675385a512d37/build --theme=60e6ef7eef54b535cafbecdd --menu=adapt-contrib-boxMenu
+info [09 Jul 21 12:04:40 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e6ef7eef54b535cafbecdd
+- adapt-contrib-narrative
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60e6f917ac8675385a512d37/build/'
+>> Using theme '60e6ef7eef54b535cafbecdd'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e6ef7eef54b535cafbecdd does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+>> Cache skipping file: src/plugins.js
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-09 12:04:34 UTC+8)
+copy:componentAssets   66ms  ▇ 1%
+copy:libraries         76ms  ▇ 1%
+copy:required          89ms  ▇ 1%
+less:compile          806ms  ▇▇▇▇▇▇ 13%
+handlebars:compile    347ms  ▇▇▇ 6%
+loading javascript    188ms  ▇▇ 3%
+javascript:compile     4.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 69%
+Total 6.3s
+
+
+info [09 Jul 21 12:06:43 +08:00] Retrieving JSON
+info [09 Jul 21 12:06:43 +08:00] All assets processed
+(node:26210) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26210) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:26210) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:26210) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+info [10 Jul 21 14:57:42 +08:00] configuration loaded from /adapt_authoring/conf/config.json
+info [10 Jul 21 14:57:42 +08:00] Supporting the following authentication types:
+info [10 Jul 21 14:57:42 +08:00] - local
+info [10 Jul 21 14:57:42 +08:00] Connection established: adapt-tenant-builder
+info [10 Jul 21 14:57:44 +08:00] Adapt authoring tool 0.10.5.
+info [10 Jul 21 14:57:44 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
+info [10 Jul 21 14:57:44 +08:00] Run node upgrade.js to update your install.
+info [10 Jul 21 14:57:44 +08:00] Server started listening on port 5000
+info [10 Jul 21 15:00:45 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60e9459cb8e0db666281ab8f
+info [10 Jul 21 15:06:56 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60e94710b8e0db666281ab95
+info [10 Jul 21 15:06:59 +08:00] Retrieving JSON
+info [10 Jul 21 15:06:59 +08:00] All assets processed
+info [10 Jul 21 15:06:59 +08:00] 3.1. Ensuring framework build exists
+info [10 Jul 21 15:06:59 +08:00] 3.2. Using theme: 60e6ef7eef54b535cafbecdd
+info [10 Jul 21 15:06:59 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [10 Jul 21 15:06:59 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60e94710b8e0db666281ab95/build --theme=60e6ef7eef54b535cafbecdd --menu=adapt-contrib-boxMenu
+info [10 Jul 21 15:07:10 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e6ef7eef54b535cafbecdd
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60e94710b8e0db666281ab95/build/'
+>> Using theme '60e6ef7eef54b535cafbecdd'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e6ef7eef54b535cafbecdd does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-10 15:07:00 UTC+8)
+less:compile        657ms  ▇▇▇ 6%
+handlebars:compile  261ms  ▇▇ 2%
+loading javascript  214ms  ▇ 2%
+javascript:compile   9.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 84%
+Total 10.8s
+
+
+info [10 Jul 21 18:49:31 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60e97b3ab8e0db666281ab9b
+info [10 Jul 21 18:49:33 +08:00] Retrieving JSON
+info [10 Jul 21 18:49:33 +08:00] All assets processed
+info [10 Jul 21 18:49:33 +08:00] 3.1. Ensuring framework build exists
+info [10 Jul 21 18:49:33 +08:00] 3.2. Using theme: 60e6ef7eef54b535cafbecdd
+info [10 Jul 21 18:49:33 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [10 Jul 21 18:49:33 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60e97b3ab8e0db666281ab9b/build --theme=60e6ef7eef54b535cafbecdd --menu=adapt-contrib-boxMenu
+info [10 Jul 21 18:49:43 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e6ef7eef54b535cafbecdd
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60e97b3ab8e0db666281ab9b/build/'
+>> Using theme '60e6ef7eef54b535cafbecdd'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e6ef7eef54b535cafbecdd does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-10 18:49:33 UTC+8)
+less:compile        784ms  ▇▇▇▇ 8%
+handlebars:compile  254ms  ▇▇ 2%
+loading javascript  175ms  ▇ 2%
+javascript:compile   8.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 83%
+Total 10.4s
+
+

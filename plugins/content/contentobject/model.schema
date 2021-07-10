@@ -71,8 +71,8 @@
     "duration": {
       "type": "string",
       "required": false,
-      "title": "Duration",
-      "default": "",
+      "title": "时长",
+      "default": "时长",
       "inputType": "Text",
       "validators" : [""],
       "help": "Indicate how long this page or section should take to complete",

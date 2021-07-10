@@ -227,7 +227,7 @@
           "type": "number",
           "required": true,
           "default": 400,
-          "title": "Duration",
+          "title": "时长",
           "inputType": "Number",
           "validators": ["required", "number"]
         }
