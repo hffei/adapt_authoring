@@ -509,3 +509,1695 @@ javascript:compile   8.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇�
 Total 10.4s
 
 
+(node:1072) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1072) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1072) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1072) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+info [11 Jul 21 20:24:30 +08:00] configuration loaded from /adapt_authoring/conf/config.json
+info [11 Jul 21 20:24:30 +08:00] Supporting the following authentication types:
+info [11 Jul 21 20:24:30 +08:00] - local
+info [11 Jul 21 20:24:30 +08:00] Connection established: adapt-tenant-builder
+info [11 Jul 21 20:24:32 +08:00] Adapt authoring tool 0.10.5.
+info [11 Jul 21 20:24:32 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
+info [11 Jul 21 20:24:32 +08:00] Run node upgrade.js to update your install.
+info [11 Jul 21 20:24:32 +08:00] Server started listening on port 5000
+(node:1998) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1998) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:1998) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:1998) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+info [11 Jul 21 22:20:01 +08:00] configuration loaded from /adapt_authoring/conf/config.json
+info [11 Jul 21 22:20:01 +08:00] Supporting the following authentication types:
+info [11 Jul 21 22:20:01 +08:00] - local
+info [11 Jul 21 22:20:02 +08:00] Connection established: adapt-tenant-builder
+info [11 Jul 21 22:20:04 +08:00] Adapt authoring tool 0.10.5.
+info [11 Jul 21 22:20:04 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
+info [11 Jul 21 22:20:04 +08:00] Run node upgrade.js to update your install.
+info [11 Jul 21 22:20:04 +08:00] Server started listening on port 5000
+info [11 Jul 21 22:20:46 +08:00] Already using the latest version of adapt-contrib-accordion (5.2.2)
+info [11 Jul 21 22:20:47 +08:00] Already using the latest version of adapt-contrib-assessmentResults (4.1.1)
+info [11 Jul 21 22:20:47 +08:00] Already using the latest version of adapt-contrib-blank (3.1.0)
+info [11 Jul 21 22:20:50 +08:00] Already using the latest version of adapt-contrib-graphic (4.1.0)
+info [11 Jul 21 22:21:37 +08:00] Added package: adapt-contrib-accordion
+info [11 Jul 21 22:21:37 +08:00] searching old package types ... 
+info [11 Jul 21 22:21:37 +08:00] Successfully removed versions of adapt-contrib-accordion(componenttype) older than 5.2.0
+info [11 Jul 21 22:21:37 +08:00] Successfully copied adapt-contrib-accordion to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-accordion
+info [11 Jul 21 22:21:51 +08:00] Added package: adapt-contrib-assessment
+info [11 Jul 21 22:21:51 +08:00] searching old package types ... 
+info [11 Jul 21 22:21:51 +08:00] Successfully removed versions of adapt-contrib-assessment(extensiontype) older than 4.3.0
+info [11 Jul 21 22:21:51 +08:00] Successfully copied adapt-contrib-assessment to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-assessment
+info [11 Jul 21 22:22:03 +08:00] Added package: adapt-contrib-assessmentResults
+info [11 Jul 21 22:22:03 +08:00] searching old package types ... 
+info [11 Jul 21 22:22:03 +08:00] Successfully removed versions of adapt-contrib-assessmentResults(componenttype) older than 4.1.0
+info [11 Jul 21 22:22:03 +08:00] Successfully copied adapt-contrib-assessmentResults to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-assessmentResults
+info [11 Jul 21 22:22:17 +08:00] Added package: adapt-contrib-blank
+info [11 Jul 21 22:22:17 +08:00] searching old package types ... 
+info [11 Jul 21 22:22:17 +08:00] Successfully removed versions of adapt-contrib-blank(componenttype) older than 3.1.0
+info [11 Jul 21 22:22:17 +08:00] Successfully copied adapt-contrib-blank to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-blank
+Error: This plugin is incompatible with version 5.14.0 of the Adapt framework.
+info [11 Jul 21 22:22:30 +08:00] Added package: adapt-contrib-bookmarking
+info [11 Jul 21 22:22:30 +08:00] searching old package types ... 
+info [11 Jul 21 22:22:30 +08:00] Successfully removed versions of adapt-contrib-bookmarking(extensiontype) older than 3.2.0
+info [11 Jul 21 22:22:30 +08:00] Successfully copied adapt-contrib-bookmarking to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-bookmarking
+info [11 Jul 21 22:22:35 +08:00] Added package: adapt-contrib-confidenceSlider
+info [11 Jul 21 22:22:35 +08:00] searching old package types ... 
+info [11 Jul 21 22:22:35 +08:00] Successfully removed versions of adapt-contrib-confidenceSlider(componenttype) older than 3.0.0
+info [11 Jul 21 22:22:35 +08:00] Successfully copied adapt-contrib-confidenceSlider to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-confidenceSlider
+Error: You already have this version of the plugin installed.
+Error: You already have this version of the plugin installed.
+info [11 Jul 21 22:22:51 +08:00] Added package: adapt-contrib-contentObjectTransition
+info [11 Jul 21 22:22:51 +08:00] searching old package types ... 
+info [11 Jul 21 22:22:51 +08:00] Successfully removed versions of adapt-contrib-contentObjectTransition(extensiontype) older than 0.1.1
+info [11 Jul 21 22:22:51 +08:00] Successfully copied adapt-contrib-contentObjectTransition to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-contentObjectTransition
+info [11 Jul 21 22:22:58 +08:00] Added package: adapt-contrib-deltaboxMenu
+info [11 Jul 21 22:22:58 +08:00] searching old package types ... 
+info [11 Jul 21 22:22:58 +08:00] Successfully removed versions of adapt-contrib-deltaboxMenu(menutype) older than 3.1.1
+info [11 Jul 21 22:22:58 +08:00] Successfully copied adapt-contrib-deltaboxMenu to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/menu/adapt-contrib-deltaboxMenu
+info [11 Jul 21 22:23:05 +08:00] Added package: adapt-contrib-flipcard
+info [11 Jul 21 22:23:05 +08:00] searching old package types ... 
+info [11 Jul 21 22:23:05 +08:00] Successfully removed versions of adapt-contrib-flipcard(componenttype) older than 3.0.0
+info [11 Jul 21 22:23:05 +08:00] Successfully copied adapt-contrib-flipcard to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-flipcard
+info [11 Jul 21 22:23:12 +08:00] Added package: adapt-contrib-glossary
+info [11 Jul 21 22:23:12 +08:00] searching old package types ... 
+info [11 Jul 21 22:23:12 +08:00] Successfully removed versions of adapt-contrib-glossary(extensiontype) older than 3.1.0
+info [11 Jul 21 22:23:12 +08:00] Successfully copied adapt-contrib-glossary to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-glossary
+info [11 Jul 21 22:23:19 +08:00] Added package: adapt-contrib-gmcq
+info [11 Jul 21 22:23:19 +08:00] searching old package types ... 
+info [11 Jul 21 22:23:19 +08:00] Successfully removed versions of adapt-contrib-gmcq(componenttype) older than 5.1.0
+info [11 Jul 21 22:23:19 +08:00] Successfully copied adapt-contrib-gmcq to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-gmcq
+info [11 Jul 21 22:23:26 +08:00] Added package: adapt-contrib-graphic
+info [11 Jul 21 22:23:26 +08:00] searching old package types ... 
+info [11 Jul 21 22:23:26 +08:00] Successfully removed versions of adapt-contrib-graphic(componenttype) older than 4.1.0
+info [11 Jul 21 22:23:26 +08:00] Successfully copied adapt-contrib-graphic to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-graphic
+Error: You already have this version of the plugin installed.
+Error: You already have this version of the plugin installed.
+info [11 Jul 21 22:24:02 +08:00] Added package: adapt-contrib-hotgraphic
+info [11 Jul 21 22:24:02 +08:00] searching old package types ... 
+info [11 Jul 21 22:24:02 +08:00] Successfully removed versions of adapt-contrib-hotgraphic(componenttype) older than 5.3.3
+info [11 Jul 21 22:24:02 +08:00] Successfully copied adapt-contrib-hotgraphic to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-hotgraphic
+info [11 Jul 21 22:24:12 +08:00] Added package: adapt-contrib-imgMagnify
+info [11 Jul 21 22:24:12 +08:00] searching old package types ... 
+info [11 Jul 21 22:24:12 +08:00] Successfully removed versions of adapt-contrib-imgMagnify(componenttype) older than 4.0.9
+info [11 Jul 21 22:24:12 +08:00] Successfully copied adapt-contrib-imgMagnify to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-imgMagnify
+info [11 Jul 21 22:24:19 +08:00] Added package: adapt-contrib-instructionError
+info [11 Jul 21 22:24:19 +08:00] searching old package types ... 
+info [11 Jul 21 22:24:19 +08:00] Successfully removed versions of adapt-contrib-instructionError(extensiontype) older than 0.1.0
+info [11 Jul 21 22:24:19 +08:00] Successfully copied adapt-contrib-instructionError to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-instructionError
+info [11 Jul 21 22:24:28 +08:00] Added package: adapt-contrib-languagePicker
+info [11 Jul 21 22:24:28 +08:00] searching old package types ... 
+info [11 Jul 21 22:24:28 +08:00] Successfully removed versions of adapt-contrib-languagePicker(extensiontype) older than 4.3.1
+info [11 Jul 21 22:24:28 +08:00] Successfully copied adapt-contrib-languagePicker to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-languagePicker
+info [11 Jul 21 22:24:34 +08:00] Added package: adapt-contrib-matching
+info [11 Jul 21 22:24:34 +08:00] searching old package types ... 
+info [11 Jul 21 22:24:34 +08:00] Successfully removed versions of adapt-contrib-matching(componenttype) older than 4.2.1
+info [11 Jul 21 22:24:34 +08:00] Successfully copied adapt-contrib-matching to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-matching
+info [11 Jul 21 22:24:41 +08:00] Added package: adapt-contrib-mcq
+info [11 Jul 21 22:24:41 +08:00] searching old package types ... 
+info [11 Jul 21 22:24:41 +08:00] Successfully removed versions of adapt-contrib-mcq(componenttype) older than 4.1.0
+info [11 Jul 21 22:24:41 +08:00] Successfully copied adapt-contrib-mcq to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-mcq
+info [11 Jul 21 22:24:56 +08:00] Added package: adapt-contrib-media
+info [11 Jul 21 22:24:56 +08:00] searching old package types ... 
+info [11 Jul 21 22:24:56 +08:00] Successfully removed versions of adapt-contrib-media(componenttype) older than 5.2.0
+info [11 Jul 21 22:24:56 +08:00] Successfully copied adapt-contrib-media to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-media
+info [11 Jul 21 22:25:09 +08:00] Added package: adapt-contrib-mobileOnlyText
+info [11 Jul 21 22:25:09 +08:00] searching old package types ... 
+info [11 Jul 21 22:25:09 +08:00] Successfully removed versions of adapt-contrib-mobileOnlyText(extensiontype) older than 0.2.0
+info [11 Jul 21 22:25:09 +08:00] Successfully copied adapt-contrib-mobileOnlyText to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-mobileOnlyText
+info [11 Jul 21 22:25:18 +08:00] Added package: adapt-contrib-narrative
+info [11 Jul 21 22:25:18 +08:00] searching old package types ... 
+info [11 Jul 21 22:25:18 +08:00] Successfully removed versions of adapt-contrib-narrative(componenttype) older than 6.3.0
+info [11 Jul 21 22:25:18 +08:00] Successfully copied adapt-contrib-narrative to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-narrative
+info [11 Jul 21 22:25:35 +08:00] Added package: adapt-contrib-openTextInput
+info [11 Jul 21 22:25:35 +08:00] searching old package types ... 
+info [11 Jul 21 22:25:35 +08:00] Successfully removed versions of adapt-contrib-openTextInput(componenttype) older than 2.1.1
+info [11 Jul 21 22:25:35 +08:00] Successfully copied adapt-contrib-openTextInput to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-openTextInput
+info [11 Jul 21 22:25:44 +08:00] Added package: adapt-contrib-pageLevelProgress
+info [11 Jul 21 22:25:44 +08:00] searching old package types ... 
+info [11 Jul 21 22:25:44 +08:00] Successfully removed versions of adapt-contrib-pageLevelProgress(extensiontype) older than 5.1.0
+info [11 Jul 21 22:25:44 +08:00] Successfully copied adapt-contrib-pageLevelProgress to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-pageLevelProgress
+info [11 Jul 21 22:25:52 +08:00] Added package: adapt-contrib-pointGmcq
+info [11 Jul 21 22:25:52 +08:00] searching old package types ... 
+info [11 Jul 21 22:25:52 +08:00] Successfully removed versions of adapt-contrib-pointGmcq(componenttype) older than 2.0.3
+info [11 Jul 21 22:25:52 +08:00] Successfully copied adapt-contrib-pointGmcq to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-pointGmcq
+info [11 Jul 21 22:25:59 +08:00] Added package: adapt-contrib-resources
+info [11 Jul 21 22:25:59 +08:00] searching old package types ... 
+info [11 Jul 21 22:25:59 +08:00] Successfully removed versions of adapt-contrib-resources(extensiontype) older than 4.1.0
+info [11 Jul 21 22:25:59 +08:00] Successfully copied adapt-contrib-resources to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-resources
+info [11 Jul 21 22:26:05 +08:00] Added package: adapt-contrib-responsiveIframe
+info [11 Jul 21 22:26:05 +08:00] searching old package types ... 
+info [11 Jul 21 22:26:05 +08:00] Successfully removed versions of adapt-contrib-responsiveIframe(componenttype) older than 1.1.0
+info [11 Jul 21 22:26:06 +08:00] Successfully copied adapt-contrib-responsiveIframe to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-responsiveIframe
+info [11 Jul 21 22:26:12 +08:00] Added package: adapt-contrib-reveal
+info [11 Jul 21 22:26:12 +08:00] searching old package types ... 
+info [11 Jul 21 22:26:12 +08:00] Successfully removed versions of adapt-contrib-reveal(componenttype) older than 3.0.3
+info [11 Jul 21 22:26:12 +08:00] Successfully copied adapt-contrib-reveal to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-reveal
+info [11 Jul 21 22:26:18 +08:00] Added package: adapt-contrib-slider
+info [11 Jul 21 22:26:18 +08:00] searching old package types ... 
+info [11 Jul 21 22:26:18 +08:00] Successfully removed versions of adapt-contrib-slider(componenttype) older than 3.2.0
+info [11 Jul 21 22:26:18 +08:00] Successfully copied adapt-contrib-slider to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-slider
+info [11 Jul 21 22:26:27 +08:00] Added package: adapt-contrib-spoor
+info [11 Jul 21 22:26:27 +08:00] searching old package types ... 
+info [11 Jul 21 22:26:27 +08:00] Successfully removed versions of adapt-contrib-spoor(extensiontype) older than 3.8.1
+info [11 Jul 21 22:26:27 +08:00] Successfully copied adapt-contrib-spoor to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-spoor
+info [11 Jul 21 22:26:33 +08:00] Added package: adapt-contrib-text
+info [11 Jul 21 22:26:33 +08:00] searching old package types ... 
+info [11 Jul 21 22:26:33 +08:00] Successfully removed versions of adapt-contrib-text(componenttype) older than 4.1.0
+info [11 Jul 21 22:26:33 +08:00] Successfully copied adapt-contrib-text to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-text
+info [11 Jul 21 22:26:41 +08:00] Added package: adapt-contrib-textInput
+info [11 Jul 21 22:26:41 +08:00] searching old package types ... 
+info [11 Jul 21 22:26:41 +08:00] Successfully removed versions of adapt-contrib-textInput(componenttype) older than 4.1.0
+info [11 Jul 21 22:26:41 +08:00] Successfully copied adapt-contrib-textInput to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-textInput
+info [11 Jul 21 22:26:48 +08:00] Added package: adapt-contrib-trickle
+info [11 Jul 21 22:26:48 +08:00] searching old package types ... 
+info [11 Jul 21 22:26:48 +08:00] Successfully removed versions of adapt-contrib-trickle(extensiontype) older than 5.0.0
+info [11 Jul 21 22:26:48 +08:00] Successfully copied adapt-contrib-trickle to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-trickle
+Error: You already have this version of the plugin installed.
+info [11 Jul 21 22:27:02 +08:00] Added package: adapt-contrib-xapi
+info [11 Jul 21 22:27:02 +08:00] searching old package types ... 
+info [11 Jul 21 22:27:02 +08:00] Successfully removed versions of adapt-contrib-xapi(extensiontype) older than 0.7.0
+info [11 Jul 21 22:27:02 +08:00] Successfully copied adapt-contrib-xapi to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-xapi
+Error: You already have this version of the plugin installed.
+info [11 Jul 21 22:31:45 +08:00] Retrieving JSON
+info [11 Jul 21 22:31:45 +08:00] All assets processed
+info [11 Jul 21 22:31:45 +08:00] 3.1. Ensuring framework build exists
+info [11 Jul 21 22:31:45 +08:00] 3.2. Using theme: 60e6ef7eef54b535cafbecdd
+info [11 Jul 21 22:31:45 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [11 Jul 21 22:31:45 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build --theme=60e6ef7eef54b535cafbecdd --menu=adapt-contrib-boxMenu
+info [11 Jul 21 22:31:56 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e6ef7eef54b535cafbecdd
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build/'
+>> Using theme '60e6ef7eef54b535cafbecdd'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e6ef7eef54b535cafbecdd does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-11 22:31:46 UTC+8)
+less:compile        691ms  ▇▇▇ 6%
+handlebars:compile  277ms  ▇▇ 3%
+loading javascript  175ms  ▇ 2%
+javascript:compile   8.8s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 83%
+Total 10.7s
+
+
+info [11 Jul 21 22:34:56 +08:00] unzipping
+info [11 Jul 21 22:34:56 +08:00] /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e6ec94ef54b535cafbecc2_60e6ef7eef54b535cafbecdd_unzipped
+info [11 Jul 21 22:34:56 +08:00] /tmp/upload_ea5384500f63f69002281d8ae2a4d49c
+info [11 Jul 21 22:35:58 +08:00] Added package: adapt-background-switcher
+info [11 Jul 21 22:35:58 +08:00] searching old package types ... 
+info [11 Jul 21 22:35:58 +08:00] Successfully removed versions of adapt-background-switcher(extensiontype) older than 2.0.1
+info [11 Jul 21 22:35:58 +08:00] Successfully copied adapt-background-switcher to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-background-switcher
+info [11 Jul 21 22:36:46 +08:00] Added package: adapt-devtools
+info [11 Jul 21 22:36:46 +08:00] searching old package types ... 
+info [11 Jul 21 22:36:46 +08:00] Successfully removed versions of adapt-devtools(extensiontype) older than 2.1.15
+info [11 Jul 21 22:36:46 +08:00] Successfully copied adapt-devtools to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-devtools
+Error: This plugin is incompatible with version 5.14.0 of the Adapt framework.
+info [11 Jul 21 22:38:41 +08:00] unzipping
+info [11 Jul 21 22:38:41 +08:00] /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e6ec94ef54b535cafbecc2_60e6ef7eef54b535cafbecdd_unzipped
+info [11 Jul 21 22:38:41 +08:00] /tmp/upload_b33044be1470ebed2260b402d10da85e
+info [11 Jul 21 22:41:52 +08:00] Added package: adapt-background-selector
+info [11 Jul 21 22:41:52 +08:00] searching old package types ... 
+info [11 Jul 21 22:41:52 +08:00] Successfully removed versions of adapt-background-selector(extensiontype) older than 2.3.10
+info [11 Jul 21 22:41:52 +08:00] Successfully copied adapt-background-selector to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-background-selector
+info [11 Jul 21 22:43:47 +08:00] unzipping
+info [11 Jul 21 22:43:47 +08:00] /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e6ec94ef54b535cafbecc2_60e6ef7eef54b535cafbecdd_unzipped
+info [11 Jul 21 22:43:47 +08:00] /tmp/upload_408971a0269cf80444f9edba9e491768
+Error: This plugin is incompatible with version 5.14.0 of the Adapt framework.
+info [12 Jul 21 00:17:48 +08:00] Added package: adapt-carousel-menu
+info [12 Jul 21 00:17:48 +08:00] searching old package types ... 
+info [12 Jul 21 00:17:48 +08:00] Successfully removed versions of adapt-carousel-menu(menutype) older than 2.1.7
+info [12 Jul 21 00:17:48 +08:00] Successfully copied adapt-carousel-menu to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/menu/adapt-carousel-menu
+info [12 Jul 21 00:18:25 +08:00] Added package: adapt-imagemap-menu
+info [12 Jul 21 00:18:25 +08:00] searching old package types ... 
+info [12 Jul 21 00:18:25 +08:00] Successfully removed versions of adapt-imagemap-menu(menutype) older than 0.78
+info [12 Jul 21 00:18:25 +08:00] Successfully copied adapt-imagemap-menu to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/menu/adapt-imagemap-menu
+info [12 Jul 21 00:18:48 +08:00] Added package: adapt-theme-tccs
+info [12 Jul 21 00:18:48 +08:00] searching old package types ... 
+info [12 Jul 21 00:18:48 +08:00] Successfully removed versions of adapt-theme-tccs(themetype) older than 1.0.0
+info [12 Jul 21 00:18:48 +08:00] Successfully copied adapt-theme-tccs to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/theme/adapt-theme-tccs
+info [12 Jul 21 00:19:00 +08:00] Added package: adapt-theme-take5
+info [12 Jul 21 00:19:00 +08:00] searching old package types ... 
+info [12 Jul 21 00:19:00 +08:00] Successfully removed versions of adapt-theme-take5(themetype) older than 3.0.4
+info [12 Jul 21 00:19:00 +08:00] Successfully copied adapt-theme-take5 to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/theme/adapt-theme-take5
+info [12 Jul 21 00:19:15 +08:00] Added package: adapt-kentico-theme
+info [12 Jul 21 00:19:15 +08:00] searching old package types ... 
+info [12 Jul 21 00:19:15 +08:00] Successfully removed versions of adapt-kentico-theme(themetype) older than 0.1.3
+info [12 Jul 21 00:19:15 +08:00] Successfully copied adapt-kentico-theme to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/theme/adapt-kentico-theme
+info [12 Jul 21 00:19:30 +08:00] Added package: adapt-theme-delta
+info [12 Jul 21 00:19:30 +08:00] searching old package types ... 
+info [12 Jul 21 00:19:30 +08:00] Successfully removed versions of adapt-theme-delta(themetype) older than 2.1.7
+info [12 Jul 21 00:19:30 +08:00] Successfully copied adapt-theme-delta to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/theme/adapt-theme-delta
+Error: This plugin is incompatible with version 5.14.0 of the Adapt framework.
+info [12 Jul 21 00:23:07 +08:00] Added package: adapt-tilesMenu
+info [12 Jul 21 00:23:07 +08:00] searching old package types ... 
+info [12 Jul 21 00:23:07 +08:00] Successfully removed versions of adapt-tilesMenu(menutype) older than 3.1.4
+info [12 Jul 21 00:23:07 +08:00] Successfully copied adapt-tilesMenu to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/menu/adapt-tilesMenu
+info [12 Jul 21 00:23:32 +08:00] Added package: adapt-hotspotMenu
+info [12 Jul 21 00:23:32 +08:00] searching old package types ... 
+info [12 Jul 21 00:23:32 +08:00] Successfully removed versions of adapt-hotspotMenu(menutype) older than 3.0.0
+info [12 Jul 21 00:23:32 +08:00] Successfully copied adapt-hotspotMenu to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/menu/adapt-hotspotMenu
+info [12 Jul 21 00:23:55 +08:00] Added package: adapt-coverMenu
+info [12 Jul 21 00:23:55 +08:00] searching old package types ... 
+info [12 Jul 21 00:23:55 +08:00] Successfully removed versions of adapt-coverMenu(menutype) older than 4.0.0
+info [12 Jul 21 00:23:55 +08:00] Successfully copied adapt-coverMenu to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/menu/adapt-coverMenu
+Error: Package is not a valid componenttype package
+(node:5153) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5153) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:5153) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:5153) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+info [12 Jul 21 09:46:52 +08:00] configuration loaded from /adapt_authoring/conf/config.json
+info [12 Jul 21 09:46:52 +08:00] Supporting the following authentication types:
+info [12 Jul 21 09:46:52 +08:00] - local
+info [12 Jul 21 09:46:52 +08:00] Connection established: adapt-tenant-builder
+info [12 Jul 21 09:46:54 +08:00] Adapt authoring tool 0.10.5.
+info [12 Jul 21 09:46:54 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
+info [12 Jul 21 09:46:54 +08:00] Run node upgrade.js to update your install.
+info [12 Jul 21 09:46:54 +08:00] Server started listening on port 5000
+info [12 Jul 21 10:35:08 +08:00] unzipping
+info [12 Jul 21 10:35:08 +08:00] /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e6ec94ef54b535cafbecc2_60e6ef7eef54b535cafbecdd_unzipped
+info [12 Jul 21 10:35:08 +08:00] /tmp/upload_a91e1c3a77f39552d8b906ee6ed3f6cc
+error [12 Jul 21 10:35:31 +08:00] Encountered an unexpected file structure. Please check you have uploaded a valid export package and try again.
+info [12 Jul 21 10:35:40 +08:00] Retrieving JSON
+info [12 Jul 21 10:35:40 +08:00] All assets processed
+info [12 Jul 21 10:35:40 +08:00] 3.1. Ensuring framework build exists
+info [12 Jul 21 10:35:40 +08:00] 3.2. Using theme: 60e6ef7eef54b535cafbecdd
+info [12 Jul 21 10:35:40 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [12 Jul 21 10:35:40 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build --theme=60e6ef7eef54b535cafbecdd --menu=adapt-contrib-boxMenu
+info [12 Jul 21 10:35:51 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e6ef7eef54b535cafbecdd
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build/'
+>> Using theme '60e6ef7eef54b535cafbecdd'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e6ef7eef54b535cafbecdd does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-12 10:35:40 UTC+8)
+copy:libraries      158ms  ▇ 1%
+copy:required       122ms  ▇ 1%
+less:compile        836ms  ▇▇▇▇ 8%
+handlebars:compile  254ms  ▇ 2%
+loading javascript  177ms  ▇ 2%
+javascript:compile   8.8s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 81%
+Total 10.9s
+
+
+info [12 Jul 21 10:35:52 +08:00] Retrieving JSON
+info [12 Jul 21 10:42:56 +08:00] unzipping
+info [12 Jul 21 10:42:56 +08:00] /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e6ec94ef54b535cafbecc2_60e6ef7eef54b535cafbecdd_unzipped
+info [12 Jul 21 10:42:56 +08:00] /tmp/upload_2e0289b13f760fc1f4e8255ab23e918f
+info [12 Jul 21 10:43:15 +08:00] Import contains newer version of Accordion (5.2.2) than server (5.2.0), upgrading
+info [12 Jul 21 10:43:15 +08:00] Import contains newer version of Narrative (6.4.0) than server (6.3.0), upgrading
+info [12 Jul 21 10:43:15 +08:00] Import contains newer version of Assessment Results (4.1.1) than server (4.1.0), upgrading
+info [12 Jul 21 10:43:15 +08:00] Import contains newer version of Graphical Multiple Choice Question (5.2.0) than server (5.1.0), upgrading
+info [12 Jul 21 10:43:15 +08:00] Import contains newer version of Spoor (3.9.0) than server (3.8.1), upgrading
+info [12 Jul 21 10:43:15 +08:00] Import contains newer version of Multiple Choice Question (4.2.0) than server (4.1.0), upgrading
+info [12 Jul 21 10:43:15 +08:00] Import contains newer version of Assessment (4.4.0) than server (4.3.0), upgrading
+info [12 Jul 21 10:43:15 +08:00] Import contains newer version of Media (5.2.1) than server (5.2.0), upgrading
+info [12 Jul 21 10:43:15 +08:00] Import contains newer version of Trickle (5.1.0) than server (5.0.0), upgrading
+info [12 Jul 21 10:43:16 +08:00] Added package: adapt-contrib-narrative
+info [12 Jul 21 10:43:16 +08:00] searching old package types ... 
+info [12 Jul 21 10:43:16 +08:00] Added package: adapt-contrib-assessmentResults
+info [12 Jul 21 10:43:16 +08:00] searching old package types ... 
+info [12 Jul 21 10:43:16 +08:00] Added package: adapt-contrib-accordion
+info [12 Jul 21 10:43:16 +08:00] searching old package types ... 
+info [12 Jul 21 10:43:16 +08:00] Added package: adapt-contrib-gmcq
+info [12 Jul 21 10:43:16 +08:00] searching old package types ... 
+info [12 Jul 21 10:43:16 +08:00] Added package: adapt-contrib-mcq
+info [12 Jul 21 10:43:16 +08:00] searching old package types ... 
+info [12 Jul 21 10:43:16 +08:00] Added package: adapt-contrib-media
+info [12 Jul 21 10:43:16 +08:00] searching old package types ... 
+info [12 Jul 21 10:43:16 +08:00] Added package: adapt-contrib-trickle
+info [12 Jul 21 10:43:16 +08:00] searching old package types ... 
+info [12 Jul 21 10:43:16 +08:00] Added package: adapt-contrib-spoor
+info [12 Jul 21 10:43:16 +08:00] searching old package types ... 
+info [12 Jul 21 10:43:16 +08:00] Added package: adapt-contrib-assessment
+info [12 Jul 21 10:43:16 +08:00] searching old package types ... 
+info [12 Jul 21 10:43:16 +08:00] Successfully removed versions of adapt-contrib-accordion(componenttype) older than 5.2.2
+info [12 Jul 21 10:43:16 +08:00] Successfully removed versions of adapt-contrib-assessmentResults(componenttype) older than 4.1.1
+info [12 Jul 21 10:43:16 +08:00] Successfully removed versions of adapt-contrib-gmcq(componenttype) older than 5.2.0
+info [12 Jul 21 10:43:16 +08:00] Successfully removed versions of adapt-contrib-narrative(componenttype) older than 6.4.0
+info [12 Jul 21 10:43:16 +08:00] Successfully removed versions of adapt-contrib-assessment(extensiontype) older than 4.4.0
+info [12 Jul 21 10:43:16 +08:00] Successfully removed versions of adapt-contrib-trickle(extensiontype) older than 5.1.0
+info [12 Jul 21 10:43:16 +08:00] Successfully removed versions of adapt-contrib-media(componenttype) older than 5.2.1
+info [12 Jul 21 10:43:16 +08:00] Successfully removed versions of adapt-contrib-spoor(extensiontype) older than 3.9.0
+info [12 Jul 21 10:43:16 +08:00] Successfully removed versions of adapt-contrib-mcq(componenttype) older than 4.2.0
+info [12 Jul 21 10:43:16 +08:00] Successfully copied adapt-contrib-assessment to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-assessment
+info [12 Jul 21 10:43:16 +08:00] Successfully copied adapt-contrib-assessmentResults to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-assessmentResults
+info [12 Jul 21 10:43:16 +08:00] Successfully copied adapt-contrib-gmcq to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-gmcq
+info [12 Jul 21 10:43:16 +08:00] Successfully copied adapt-contrib-mcq to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-mcq
+info [12 Jul 21 10:43:16 +08:00] Successfully copied adapt-contrib-accordion to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-accordion
+info [12 Jul 21 10:43:16 +08:00] Successfully copied adapt-contrib-narrative to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-narrative
+info [12 Jul 21 10:43:16 +08:00] Successfully copied adapt-contrib-trickle to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-trickle
+info [12 Jul 21 10:43:16 +08:00] Successfully copied adapt-contrib-spoor to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/extensions/adapt-contrib-spoor
+info [12 Jul 21 10:43:16 +08:00] Successfully copied adapt-contrib-media to tenant /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/src/components/adapt-contrib-media
+error [12 Jul 21 10:43:16 +08:00] Framework import error. Cannot find folder: /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e6ec94ef54b535cafbecc2_60e6ef7eef54b535cafbecdd_unzipped/src/course/en/assets
+error [12 Jul 21 10:43:18 +08:00] Framework import error. Cannot find folder: /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e6ec94ef54b535cafbecc2_60e6ef7eef54b535cafbecdd_unzipped/src/course/en/audio
+info [12 Jul 21 10:43:20 +08:00] Course imported successfully
+info [12 Jul 21 10:43:24 +08:00] Retrieving JSON
+info [12 Jul 21 10:43:24 +08:00] All assets processed
+info [12 Jul 21 10:43:24 +08:00] 3.1. Ensuring framework build exists
+info [12 Jul 21 10:43:24 +08:00] 3.2. Using theme: 60e6ef7eef54b535cafbecdd
+info [12 Jul 21 10:43:24 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [12 Jul 21 10:43:24 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60ebac46d41e6d14215e8c01/build --theme=60e6ef7eef54b535cafbecdd --menu=adapt-contrib-boxMenu
+info [12 Jul 21 10:43:43 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e6ef7eef54b535cafbecdd
+- adapt-contrib-accordion
+- adapt-contrib-assessmentResults
+- adapt-contrib-blank
+- adapt-contrib-gmcq
+- adapt-contrib-mcq
+- adapt-contrib-graphic
+- adapt-contrib-hotgraphic
+- adapt-contrib-narrative
+- adapt-contrib-matching
+- adapt-contrib-media
+- adapt-contrib-slider
+- adapt-contrib-text
+- adapt-contrib-textInput
+- adapt-contrib-assessment
+- adapt-contrib-bookmarking
+- adapt-contrib-languagePicker
+- adapt-contrib-pageLevelProgress
+- adapt-contrib-resources
+- adapt-contrib-spoor
+- adapt-contrib-trickle
+- adapt-contrib-tutor
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60ebac46d41e6d14215e8c01/build/'
+>> Using theme '60e6ef7eef54b535cafbecdd'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e6ef7eef54b535cafbecdd does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+Created 1 directory, copied 15 files
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+Copied 6 files
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+Copied 10 files
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-12 10:43:24 UTC+8)
+less:compile         1.3s  ▇▇▇ 7%
+handlebars:compile  402ms  ▇ 2%
+javascript:compile  16.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 85%
+Total 18.9s
+
+
+info [12 Jul 21 10:48:48 +08:00] Retrieving JSON
+info [12 Jul 21 10:48:48 +08:00] All assets processed
+info [12 Jul 21 10:49:48 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60ebac46d41e6d14215e8c01
+info [12 Jul 21 10:49:48 +08:00] Writing build to /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60ebac46d41e6d14215e8c01/build/.rebuild
+info [12 Jul 21 10:50:44 +08:00] Retrieving JSON
+info [12 Jul 21 10:50:44 +08:00] All assets processed
+info [12 Jul 21 10:50:44 +08:00] 3.1. Ensuring framework build exists
+info [12 Jul 21 10:50:44 +08:00] 3.2. Using theme: 60e981a84481116ba4e5950a
+info [12 Jul 21 10:50:44 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [12 Jul 21 10:50:44 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60ebac46d41e6d14215e8c01/build --theme=60e981a84481116ba4e5950a --menu=adapt-contrib-boxMenu
+info [12 Jul 21 10:50:55 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e981a84481116ba4e5950a
+- adapt-contrib-accordion
+- adapt-contrib-assessmentResults
+- adapt-contrib-blank
+- adapt-contrib-gmcq
+- adapt-contrib-mcq
+- adapt-contrib-graphic
+- adapt-contrib-hotgraphic
+- adapt-contrib-narrative
+- adapt-contrib-matching
+- adapt-contrib-media
+- adapt-contrib-slider
+- adapt-contrib-text
+- adapt-contrib-textInput
+- adapt-contrib-assessment
+- adapt-contrib-bookmarking
+- adapt-contrib-languagePicker
+- adapt-contrib-pageLevelProgress
+- adapt-contrib-resources
+- adapt-contrib-spoor
+- adapt-contrib-trickle
+- adapt-contrib-tutor
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60ebac46d41e6d14215e8c01/build/'
+>> Using theme '60e981a84481116ba4e5950a'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e981a84481116ba4e5950a does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+Created 1 directory, copied 15 files
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+Copied 6 files
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+Copied 10 files
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+>> Cache skipping file: src/plugins.js
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-12 10:50:44 UTC+8)
+copy:libraries      133ms  ▇ 1%
+copy:required       133ms  ▇ 1%
+less:compile         1.1s  ▇▇▇▇▇ 11%
+handlebars:compile  377ms  ▇▇ 4%
+loading javascript  179ms  ▇ 2%
+javascript:compile   7.6s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 75%
+replace:dist        123ms  ▇ 1%
+Total 10.2s
+
+
+info [12 Jul 21 10:51:07 +08:00] Retrieving JSON
+info [12 Jul 21 10:51:07 +08:00] All assets processed
+info [12 Jul 21 10:51:37 +08:00] Retrieving JSON
+info [12 Jul 21 10:51:38 +08:00] All assets processed
+info [12 Jul 21 10:51:52 +08:00] Retrieving JSON
+info [12 Jul 21 10:51:52 +08:00] All assets processed
+info [12 Jul 21 10:52:28 +08:00] Retrieving JSON
+info [12 Jul 21 10:52:28 +08:00] All assets processed
+info [12 Jul 21 10:53:00 +08:00] Retrieving JSON
+info [12 Jul 21 10:53:01 +08:00] All assets processed
+info [12 Jul 21 10:53:29 +08:00] Retrieving JSON
+info [12 Jul 21 10:53:29 +08:00] All assets processed
+info [12 Jul 21 10:53:47 +08:00] Retrieving JSON
+info [12 Jul 21 10:53:47 +08:00] All assets processed
+info [12 Jul 21 10:54:09 +08:00] Retrieving JSON
+info [12 Jul 21 10:54:09 +08:00] All assets processed
+info [12 Jul 21 10:54:09 +08:00] 3.1. Ensuring framework build exists
+info [12 Jul 21 10:54:09 +08:00] 3.2. Using theme: 60e6ef7eef54b535cafbecdd
+info [12 Jul 21 10:54:09 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [12 Jul 21 10:54:09 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60ebac46d41e6d14215e8c01/build --theme=60e6ef7eef54b535cafbecdd --menu=adapt-contrib-boxMenu
+info [12 Jul 21 10:54:29 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e6ef7eef54b535cafbecdd
+- adapt-contrib-accordion
+- adapt-contrib-assessmentResults
+- adapt-contrib-blank
+- adapt-contrib-gmcq
+- adapt-contrib-mcq
+- adapt-contrib-graphic
+- adapt-contrib-hotgraphic
+- adapt-contrib-narrative
+- adapt-contrib-matching
+- adapt-contrib-media
+- adapt-contrib-slider
+- adapt-contrib-text
+- adapt-contrib-textInput
+- adapt-contrib-assessment
+- adapt-contrib-bookmarking
+- adapt-contrib-languagePicker
+- adapt-contrib-pageLevelProgress
+- adapt-contrib-resources
+- adapt-contrib-spoor
+- adapt-contrib-trickle
+- adapt-contrib-tutor
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60ebac46d41e6d14215e8c01/build/'
+>> Using theme '60e6ef7eef54b535cafbecdd'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e6ef7eef54b535cafbecdd does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+Created 1 directory, copied 15 files
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+Copied 6 files
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+Copied 10 files
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-12 10:54:09 UTC+8)
+less:compile         1.2s  ▇▇▇ 6%
+handlebars:compile  437ms  ▇ 2%
+javascript:compile    17s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 86%
+Total 19.7s
+
+
+info [12 Jul 21 10:57:47 +08:00] Retrieving JSON
+info [12 Jul 21 10:57:48 +08:00] All assets processed
+info [12 Jul 21 10:58:41 +08:00] Retrieving JSON
+info [12 Jul 21 10:58:41 +08:00] All assets processed
+info [12 Jul 21 10:59:05 +08:00] Retrieving JSON
+info [12 Jul 21 10:59:05 +08:00] All assets processed
+info [12 Jul 21 10:59:42 +08:00] Retrieving JSON
+info [12 Jul 21 10:59:42 +08:00] All assets processed
+info [12 Jul 21 10:59:42 +08:00] 3.1. Ensuring framework build exists
+info [12 Jul 21 10:59:42 +08:00] 3.2. Using theme: 60e6ef7eef54b535cafbecdd
+info [12 Jul 21 10:59:42 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [12 Jul 21 10:59:42 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60ebac46d41e6d14215e8c01/build --theme=60e6ef7eef54b535cafbecdd --menu=adapt-contrib-boxMenu
+info [12 Jul 21 11:00:01 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e6ef7eef54b535cafbecdd
+- adapt-contrib-accordion
+- adapt-contrib-assessmentResults
+- adapt-contrib-blank
+- adapt-contrib-gmcq
+- adapt-contrib-mcq
+- adapt-contrib-graphic
+- adapt-contrib-hotgraphic
+- adapt-contrib-narrative
+- adapt-contrib-matching
+- adapt-contrib-media
+- adapt-contrib-slider
+- adapt-contrib-text
+- adapt-contrib-textInput
+- adapt-contrib-assessment
+- adapt-contrib-bookmarking
+- adapt-contrib-languagePicker
+- adapt-contrib-pageLevelProgress
+- adapt-contrib-resources
+- adapt-contrib-spoor
+- adapt-contrib-trickle
+- adapt-contrib-tutor
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60ebac46d41e6d14215e8c01/build/'
+>> Using theme '60e6ef7eef54b535cafbecdd'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e6ef7eef54b535cafbecdd does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+Created 1 directory, copied 15 files
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+Copied 6 files
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+Copied 10 files
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-12 10:59:42 UTC+8)
+less:compile         1.2s  ▇▇▇ 6%
+handlebars:compile  465ms  ▇▇ 2%
+javascript:compile  16.5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 86%
+Total 19.2s
+
+
+info [12 Jul 21 11:00:25 +08:00] Retrieving JSON
+info [12 Jul 21 11:00:26 +08:00] All assets processed
+info [12 Jul 21 11:00:46 +08:00] Retrieving JSON
+info [12 Jul 21 11:00:46 +08:00] All assets processed
+info [12 Jul 21 11:01:11 +08:00] Retrieving JSON
+info [12 Jul 21 11:01:11 +08:00] All assets processed
+info [12 Jul 21 11:04:38 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60e984ab9c89b46d4ba21b50
+info [12 Jul 21 11:04:38 +08:00] Writing build to /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build/.rebuild
+info [12 Jul 21 11:04:38 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60e984ab9c89b46d4ba21b50
+info [12 Jul 21 11:04:38 +08:00] Writing build to /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build/.rebuild
+info [12 Jul 21 11:04:38 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60e984ab9c89b46d4ba21b50
+info [12 Jul 21 11:04:38 +08:00] Writing build to /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build/.rebuild
+info [12 Jul 21 11:04:38 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60e984ab9c89b46d4ba21b50
+info [12 Jul 21 11:04:38 +08:00] Writing build to /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build/.rebuild
+info [12 Jul 21 11:04:38 +08:00] Event:rebuildCourse triggered for Tenant: 60e6ec94ef54b535cafbecc2 Course: 60e984ab9c89b46d4ba21b50
+info [12 Jul 21 11:04:38 +08:00] Writing build to /adapt_authoring/temp/60e6ec94ef54b535cafbecc2/adapt_framework/courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build/.rebuild
+info [12 Jul 21 11:04:42 +08:00] Retrieving JSON
+info [12 Jul 21 11:04:42 +08:00] All theme assets processed
+info [12 Jul 21 11:04:42 +08:00] All assets processed
+info [12 Jul 21 11:04:42 +08:00] 3.1. Ensuring framework build exists
+info [12 Jul 21 11:04:42 +08:00] 3.2. Using theme: 60e6ef7eef54b535cafbecdd
+info [12 Jul 21 11:04:42 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [12 Jul 21 11:04:42 +08:00] grunt server-build:prod --outputdir=courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build --theme=60e6ef7eef54b535cafbecdd --menu=adapt-contrib-boxMenu
+info [12 Jul 21 11:04:48 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60e6ef7eef54b535cafbecdd
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60e6ec94ef54b535cafbecc2/60e984ab9c89b46d4ba21b50/build/'
+>> Using theme '60e6ef7eef54b535cafbecdd'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60e6ef7eef54b535cafbecdd does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+>> Cache skipping file: src/plugins.js
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-12 11:04:42 UTC+8)
+copy:componentAssets   76ms  ▇ 1%
+copy:libraries        127ms  ▇ 2%
+copy:required         117ms  ▇ 2%
+less:compile          803ms  ▇▇▇▇▇▇ 13%
+handlebars:compile    259ms  ▇▇ 4%
+loading javascript    172ms  ▇▇ 3%
+javascript:compile       4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 67%
+Total 6s
+
+
+info [12 Jul 21 11:06:01 +08:00] Retrieving JSON
+info [12 Jul 21 11:06:02 +08:00] All theme assets processed
+info [12 Jul 21 11:06:02 +08:00] All assets processed
+(node:7905) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7905) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:7905) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:7905) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+info [12 Jul 21 15:05:11 +08:00] configuration loaded from /adapt_authoring/conf/config.json
+info [12 Jul 21 15:05:12 +08:00] Supporting the following authentication types:
+info [12 Jul 21 15:05:12 +08:00] - local
+info [12 Jul 21 15:05:12 +08:00] Connection established: adapt-tenant-builder
+info [12 Jul 21 15:05:14 +08:00] Adapt authoring tool 0.10.5.
+info [12 Jul 21 15:05:14 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
+info [12 Jul 21 15:05:14 +08:00] Run node upgrade.js to update your install.
+info [12 Jul 21 15:05:14 +08:00] Server started listening on port 5000
+info [12 Jul 21 22:46:58 +08:00] Retrieving JSON
+info [12 Jul 21 22:46:58 +08:00] All assets processed
+info [13 Jul 21 15:12:27 +08:00] Retrieving JSON
+info [13 Jul 21 15:12:27 +08:00] All assets processed
+warn [13 Jul 21 15:13:42 +08:00] Preview: user 'undefined' does not have permission to view course '60e98338f2bb516d029ace6e' on tenant '60e6ec94ef54b535cafbecc2'
+Error: Permission denied
+(node:19395) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19395) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:19395) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:19395) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+info [14 Jul 21 16:41:56 +08:00] configuration loaded from /adapt_authoring/conf/config.json
+info [14 Jul 21 16:41:56 +08:00] Supporting the following authentication types:
+info [14 Jul 21 16:41:56 +08:00] - local
+info [14 Jul 21 16:41:56 +08:00] Connection established: adapt-tenant-builder
+info [14 Jul 21 16:41:58 +08:00] Adapt authoring tool 0.10.5.
+info [14 Jul 21 16:41:58 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
+info [14 Jul 21 16:41:58 +08:00] Run node upgrade.js to update your install.
+info [14 Jul 21 16:41:58 +08:00] Server started listening on port 5000
+info [14 Jul 21 22:15:04 +08:00] Retrieving JSON
+info [14 Jul 21 22:15:04 +08:00] All assets processed
+info [14 Jul 21 22:16:16 +08:00] Added package: adapt-contrib-accordion
+info [14 Jul 21 22:16:16 +08:00] searching old package types ... 
+info [14 Jul 21 22:16:16 +08:00] Successfully removed versions of adapt-contrib-accordion(componenttype) older than 5.2.0
+info [14 Jul 21 22:16:16 +08:00] Successfully copied adapt-contrib-accordion to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-accordion
+info [14 Jul 21 22:16:25 +08:00] Added package: adapt-contrib-assessment
+info [14 Jul 21 22:16:25 +08:00] searching old package types ... 
+info [14 Jul 21 22:16:25 +08:00] Successfully removed versions of adapt-contrib-assessment(extensiontype) older than 4.3.0
+info [14 Jul 21 22:16:25 +08:00] Successfully copied adapt-contrib-assessment to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-assessment
+info [14 Jul 21 22:16:37 +08:00] Added package: adapt-contrib-assessmentResults
+info [14 Jul 21 22:16:37 +08:00] searching old package types ... 
+info [14 Jul 21 22:16:37 +08:00] Successfully removed versions of adapt-contrib-assessmentResults(componenttype) older than 4.1.0
+info [14 Jul 21 22:16:37 +08:00] Successfully copied adapt-contrib-assessmentResults to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-assessmentResults
+info [14 Jul 21 22:16:58 +08:00] Added package: adapt-contrib-blank
+info [14 Jul 21 22:16:58 +08:00] searching old package types ... 
+info [14 Jul 21 22:16:58 +08:00] Successfully removed versions of adapt-contrib-blank(componenttype) older than 3.1.0
+info [14 Jul 21 22:16:58 +08:00] Successfully copied adapt-contrib-blank to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-blank
+Error: This plugin is incompatible with version 5.14.0 of the Adapt framework.
+info [14 Jul 21 22:17:10 +08:00] Added package: adapt-contrib-bookmarking
+info [14 Jul 21 22:17:10 +08:00] searching old package types ... 
+info [14 Jul 21 22:17:10 +08:00] Successfully removed versions of adapt-contrib-bookmarking(extensiontype) older than 3.2.0
+info [14 Jul 21 22:17:10 +08:00] Successfully copied adapt-contrib-bookmarking to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-bookmarking
+info [14 Jul 21 22:17:16 +08:00] Added package: adapt-contrib-confidenceSlider
+info [14 Jul 21 22:17:16 +08:00] searching old package types ... 
+info [14 Jul 21 22:17:16 +08:00] Successfully removed versions of adapt-contrib-confidenceSlider(componenttype) older than 3.0.0
+info [14 Jul 21 22:17:16 +08:00] Successfully copied adapt-contrib-confidenceSlider to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-confidenceSlider
+info [14 Jul 21 22:17:22 +08:00] Added package: adapt-contrib-contentObjectTransition
+info [14 Jul 21 22:17:22 +08:00] searching old package types ... 
+info [14 Jul 21 22:17:22 +08:00] Successfully removed versions of adapt-contrib-contentObjectTransition(extensiontype) older than 0.1.1
+info [14 Jul 21 22:17:22 +08:00] Successfully copied adapt-contrib-contentObjectTransition to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-contentObjectTransition
+info [14 Jul 21 22:17:29 +08:00] Added package: adapt-contrib-deltaboxMenu
+info [14 Jul 21 22:17:29 +08:00] searching old package types ... 
+info [14 Jul 21 22:17:29 +08:00] Successfully removed versions of adapt-contrib-deltaboxMenu(menutype) older than 3.1.1
+info [14 Jul 21 22:17:29 +08:00] Successfully copied adapt-contrib-deltaboxMenu to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/menu/adapt-contrib-deltaboxMenu
+info [14 Jul 21 22:17:37 +08:00] Added package: adapt-contrib-flipcard
+info [14 Jul 21 22:17:37 +08:00] searching old package types ... 
+info [14 Jul 21 22:17:37 +08:00] Successfully removed versions of adapt-contrib-flipcard(componenttype) older than 3.0.0
+info [14 Jul 21 22:17:37 +08:00] Successfully copied adapt-contrib-flipcard to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-flipcard
+info [14 Jul 21 22:17:46 +08:00] Added package: adapt-contrib-glossary
+info [14 Jul 21 22:17:46 +08:00] searching old package types ... 
+info [14 Jul 21 22:17:46 +08:00] Successfully removed versions of adapt-contrib-glossary(extensiontype) older than 3.1.0
+info [14 Jul 21 22:17:46 +08:00] Successfully copied adapt-contrib-glossary to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-glossary
+info [14 Jul 21 22:17:55 +08:00] Added package: adapt-contrib-gmcq
+info [14 Jul 21 22:17:55 +08:00] searching old package types ... 
+info [14 Jul 21 22:17:55 +08:00] Successfully removed versions of adapt-contrib-gmcq(componenttype) older than 5.1.0
+info [14 Jul 21 22:17:55 +08:00] Successfully copied adapt-contrib-gmcq to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-gmcq
+info [14 Jul 21 22:18:02 +08:00] Added package: adapt-contrib-graphic
+info [14 Jul 21 22:18:02 +08:00] searching old package types ... 
+info [14 Jul 21 22:18:02 +08:00] Successfully removed versions of adapt-contrib-graphic(componenttype) older than 4.1.0
+info [14 Jul 21 22:18:02 +08:00] Successfully copied adapt-contrib-graphic to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-graphic
+info [14 Jul 21 22:18:09 +08:00] Added package: adapt-contrib-hotgraphic
+info [14 Jul 21 22:18:09 +08:00] searching old package types ... 
+info [14 Jul 21 22:18:09 +08:00] Successfully removed versions of adapt-contrib-hotgraphic(componenttype) older than 5.3.3
+info [14 Jul 21 22:18:09 +08:00] Successfully copied adapt-contrib-hotgraphic to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-hotgraphic
+info [14 Jul 21 22:18:17 +08:00] Added package: adapt-contrib-imgMagnify
+info [14 Jul 21 22:18:17 +08:00] searching old package types ... 
+info [14 Jul 21 22:18:17 +08:00] Successfully removed versions of adapt-contrib-imgMagnify(componenttype) older than 4.0.9
+info [14 Jul 21 22:18:18 +08:00] Successfully copied adapt-contrib-imgMagnify to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-imgMagnify
+info [14 Jul 21 22:18:24 +08:00] Added package: adapt-contrib-instructionError
+info [14 Jul 21 22:18:24 +08:00] searching old package types ... 
+info [14 Jul 21 22:18:24 +08:00] Successfully removed versions of adapt-contrib-instructionError(extensiontype) older than 0.1.0
+info [14 Jul 21 22:18:24 +08:00] Successfully copied adapt-contrib-instructionError to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-instructionError
+info [14 Jul 21 22:18:32 +08:00] Added package: adapt-contrib-languagePicker
+info [14 Jul 21 22:18:32 +08:00] searching old package types ... 
+info [14 Jul 21 22:18:33 +08:00] Successfully removed versions of adapt-contrib-languagePicker(extensiontype) older than 4.3.1
+info [14 Jul 21 22:18:33 +08:00] Successfully copied adapt-contrib-languagePicker to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-languagePicker
+info [14 Jul 21 22:18:41 +08:00] Added package: adapt-contrib-matching
+info [14 Jul 21 22:18:41 +08:00] searching old package types ... 
+info [14 Jul 21 22:18:41 +08:00] Successfully removed versions of adapt-contrib-matching(componenttype) older than 4.2.1
+info [14 Jul 21 22:18:41 +08:00] Successfully copied adapt-contrib-matching to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-matching
+info [14 Jul 21 22:18:47 +08:00] Added package: adapt-contrib-mcq
+info [14 Jul 21 22:18:47 +08:00] searching old package types ... 
+info [14 Jul 21 22:18:47 +08:00] Successfully removed versions of adapt-contrib-mcq(componenttype) older than 4.1.0
+info [14 Jul 21 22:18:47 +08:00] Successfully copied adapt-contrib-mcq to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-mcq
+info [14 Jul 21 22:19:02 +08:00] Added package: adapt-contrib-media
+info [14 Jul 21 22:19:02 +08:00] searching old package types ... 
+info [14 Jul 21 22:19:02 +08:00] Successfully removed versions of adapt-contrib-media(componenttype) older than 5.2.0
+info [14 Jul 21 22:19:02 +08:00] Successfully copied adapt-contrib-media to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-media
+info [14 Jul 21 22:19:08 +08:00] Added package: adapt-contrib-mobileOnlyText
+info [14 Jul 21 22:19:08 +08:00] searching old package types ... 
+info [14 Jul 21 22:19:08 +08:00] Successfully removed versions of adapt-contrib-mobileOnlyText(extensiontype) older than 0.2.0
+info [14 Jul 21 22:19:08 +08:00] Successfully copied adapt-contrib-mobileOnlyText to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-mobileOnlyText
+info [14 Jul 21 22:19:16 +08:00] Added package: adapt-contrib-narrative
+info [14 Jul 21 22:19:16 +08:00] searching old package types ... 
+info [14 Jul 21 22:19:16 +08:00] Successfully removed versions of adapt-contrib-narrative(componenttype) older than 6.3.0
+info [14 Jul 21 22:19:16 +08:00] Successfully copied adapt-contrib-narrative to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-narrative
+info [14 Jul 21 22:19:33 +08:00] Added package: adapt-contrib-openTextInput
+info [14 Jul 21 22:19:33 +08:00] searching old package types ... 
+info [14 Jul 21 22:19:33 +08:00] Successfully removed versions of adapt-contrib-openTextInput(componenttype) older than 2.1.1
+info [14 Jul 21 22:19:33 +08:00] Successfully copied adapt-contrib-openTextInput to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-openTextInput
+info [14 Jul 21 22:19:41 +08:00] Added package: adapt-contrib-pageLevelProgress
+info [14 Jul 21 22:19:41 +08:00] searching old package types ... 
+info [14 Jul 21 22:19:41 +08:00] Successfully removed versions of adapt-contrib-pageLevelProgress(extensiontype) older than 5.1.0
+info [14 Jul 21 22:19:41 +08:00] Successfully copied adapt-contrib-pageLevelProgress to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-pageLevelProgress
+info [14 Jul 21 22:19:48 +08:00] Added package: adapt-contrib-pointGmcq
+info [14 Jul 21 22:19:48 +08:00] searching old package types ... 
+info [14 Jul 21 22:19:48 +08:00] Successfully removed versions of adapt-contrib-pointGmcq(componenttype) older than 2.0.3
+info [14 Jul 21 22:19:48 +08:00] Successfully copied adapt-contrib-pointGmcq to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-pointGmcq
+info [14 Jul 21 22:19:55 +08:00] Added package: adapt-contrib-resources
+info [14 Jul 21 22:19:55 +08:00] searching old package types ... 
+info [14 Jul 21 22:19:55 +08:00] Successfully removed versions of adapt-contrib-resources(extensiontype) older than 4.1.0
+info [14 Jul 21 22:19:55 +08:00] Successfully copied adapt-contrib-resources to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-resources
+info [14 Jul 21 22:20:01 +08:00] Added package: adapt-contrib-responsiveIframe
+info [14 Jul 21 22:20:01 +08:00] searching old package types ... 
+info [14 Jul 21 22:20:01 +08:00] Successfully removed versions of adapt-contrib-responsiveIframe(componenttype) older than 1.1.0
+info [14 Jul 21 22:20:01 +08:00] Successfully copied adapt-contrib-responsiveIframe to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-responsiveIframe
+info [14 Jul 21 22:20:14 +08:00] Added package: adapt-contrib-reveal
+info [14 Jul 21 22:20:14 +08:00] searching old package types ... 
+info [14 Jul 21 22:20:14 +08:00] Successfully removed versions of adapt-contrib-reveal(componenttype) older than 3.0.3
+info [14 Jul 21 22:20:14 +08:00] Successfully copied adapt-contrib-reveal to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-reveal
+info [14 Jul 21 22:20:22 +08:00] Added package: adapt-contrib-slider
+info [14 Jul 21 22:20:22 +08:00] searching old package types ... 
+info [14 Jul 21 22:20:22 +08:00] Successfully removed versions of adapt-contrib-slider(componenttype) older than 3.2.0
+info [14 Jul 21 22:20:22 +08:00] Successfully copied adapt-contrib-slider to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-slider
+info [14 Jul 21 22:20:28 +08:00] Added package: adapt-contrib-spoor
+info [14 Jul 21 22:20:28 +08:00] searching old package types ... 
+info [14 Jul 21 22:20:28 +08:00] Successfully removed versions of adapt-contrib-spoor(extensiontype) older than 3.8.1
+info [14 Jul 21 22:20:28 +08:00] Successfully copied adapt-contrib-spoor to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-spoor
+info [14 Jul 21 22:20:37 +08:00] Added package: adapt-contrib-text
+info [14 Jul 21 22:20:37 +08:00] searching old package types ... 
+info [14 Jul 21 22:20:37 +08:00] Successfully removed versions of adapt-contrib-text(componenttype) older than 4.1.0
+info [14 Jul 21 22:20:37 +08:00] Successfully copied adapt-contrib-text to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-text
+info [14 Jul 21 22:20:44 +08:00] Added package: adapt-contrib-textInput
+info [14 Jul 21 22:20:44 +08:00] searching old package types ... 
+info [14 Jul 21 22:20:44 +08:00] Successfully removed versions of adapt-contrib-textInput(componenttype) older than 4.1.0
+info [14 Jul 21 22:20:44 +08:00] Successfully copied adapt-contrib-textInput to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-textInput
+info [14 Jul 21 22:20:50 +08:00] Added package: adapt-contrib-trickle
+info [14 Jul 21 22:20:50 +08:00] searching old package types ... 
+info [14 Jul 21 22:20:50 +08:00] Successfully removed versions of adapt-contrib-trickle(extensiontype) older than 5.0.0
+info [14 Jul 21 22:20:50 +08:00] Successfully copied adapt-contrib-trickle to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-trickle
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:21:00 +08:00] Added package: adapt-contrib-xapi
+info [14 Jul 21 22:21:00 +08:00] searching old package types ... 
+info [14 Jul 21 22:21:00 +08:00] Successfully removed versions of adapt-contrib-xapi(extensiontype) older than 0.7.0
+info [14 Jul 21 22:21:00 +08:00] Successfully copied adapt-contrib-xapi to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-contrib-xapi
+info [14 Jul 21 22:21:26 +08:00] Added package: adapt-aboutUs
+info [14 Jul 21 22:21:26 +08:00] searching old package types ... 
+info [14 Jul 21 22:21:26 +08:00] Successfully removed versions of adapt-aboutUs(extensiontype) older than 1.3.2
+info [14 Jul 21 22:21:26 +08:00] Successfully copied adapt-aboutUs to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-aboutUs
+info [14 Jul 21 22:21:31 +08:00] Added package: adapt-articleBlockSlider
+info [14 Jul 21 22:21:31 +08:00] searching old package types ... 
+info [14 Jul 21 22:21:31 +08:00] Successfully removed versions of adapt-articleBlockSlider(extensiontype) older than 2.1.0
+info [14 Jul 21 22:21:31 +08:00] Successfully copied adapt-articleBlockSlider to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-articleBlockSlider
+info [14 Jul 21 22:21:36 +08:00] Added package: adapt-audio音频
+info [14 Jul 21 22:21:36 +08:00] searching old package types ... 
+info [14 Jul 21 22:21:36 +08:00] Successfully removed versions of adapt-audio音频(extensiontype) older than 4.1.6_cn
+info [14 Jul 21 22:21:36 +08:00] Successfully copied adapt-audio音频 to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-audio音频
+info [14 Jul 21 22:21:40 +08:00] Added package: adapt-azure
+info [14 Jul 21 22:21:40 +08:00] searching old package types ... 
+info [14 Jul 21 22:21:40 +08:00] Successfully removed versions of adapt-azure(componenttype) older than 4.3.6
+info [14 Jul 21 22:21:40 +08:00] Successfully copied adapt-azure to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-azure
+info [14 Jul 21 22:21:45 +08:00] Added package: adapt-backgroundScroll
+info [14 Jul 21 22:21:45 +08:00] searching old package types ... 
+info [14 Jul 21 22:21:45 +08:00] Successfully removed versions of adapt-backgroundScroll(extensiontype) older than 3.0.2
+info [14 Jul 21 22:21:45 +08:00] Successfully copied adapt-backgroundScroll to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-backgroundScroll
+info [14 Jul 21 22:21:50 +08:00] Added package: adapt-background-selector
+info [14 Jul 21 22:21:50 +08:00] searching old package types ... 
+info [14 Jul 21 22:21:50 +08:00] Successfully removed versions of adapt-background-selector(extensiontype) older than 2.3.10
+info [14 Jul 21 22:21:50 +08:00] Successfully copied adapt-background-selector to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-background-selector
+info [14 Jul 21 22:21:56 +08:00] Added package: adapt-before-and-after
+info [14 Jul 21 22:21:56 +08:00] searching old package types ... 
+info [14 Jul 21 22:21:56 +08:00] Successfully removed versions of adapt-before-and-after(componenttype) older than 0.0.9
+info [14 Jul 21 22:21:56 +08:00] Successfully copied adapt-before-and-after to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-before-and-after
+info [14 Jul 21 22:22:02 +08:00] Added package: adapt-bgImages
+info [14 Jul 21 22:22:02 +08:00] searching old package types ... 
+info [14 Jul 21 22:22:02 +08:00] Successfully removed versions of adapt-bgImages(themetype) older than 1.0.2
+info [14 Jul 21 22:22:02 +08:00] Successfully copied adapt-bgImages to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/theme/adapt-bgImages
+info [14 Jul 21 22:22:08 +08:00] Added package: adapt-blinds
+info [14 Jul 21 22:22:08 +08:00] searching old package types ... 
+info [14 Jul 21 22:22:08 +08:00] Successfully removed versions of adapt-blinds(componenttype) older than 3.0.1
+info [14 Jul 21 22:22:08 +08:00] Successfully copied adapt-blinds to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-blinds
+info [14 Jul 21 22:22:13 +08:00] Added package: adapt-block-reveal
+info [14 Jul 21 22:22:13 +08:00] searching old package types ... 
+info [14 Jul 21 22:22:13 +08:00] Successfully removed versions of adapt-block-reveal(extensiontype) older than 4.1.1
+info [14 Jul 21 22:22:13 +08:00] Successfully copied adapt-block-reveal to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-block-reveal
+info [14 Jul 21 22:22:18 +08:00] Added package: adapt-close
+info [14 Jul 21 22:22:18 +08:00] searching old package types ... 
+info [14 Jul 21 22:22:18 +08:00] Successfully removed versions of adapt-close(extensiontype) older than 2.1.0
+info [14 Jul 21 22:22:18 +08:00] Successfully copied adapt-close to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-close
+info [14 Jul 21 22:22:23 +08:00] Added package: adapt-cover-menu-audio
+info [14 Jul 21 22:22:23 +08:00] searching old package types ... 
+info [14 Jul 21 22:22:23 +08:00] Successfully removed versions of adapt-cover-menu-audio(menutype) older than 4.1.1
+info [14 Jul 21 22:22:23 +08:00] Successfully copied adapt-cover-menu-audio to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/menu/adapt-cover-menu-audio
+info [14 Jul 21 22:22:31 +08:00] Added package: adapt-coverMenu
+info [14 Jul 21 22:22:31 +08:00] searching old package types ... 
+info [14 Jul 21 22:22:31 +08:00] Successfully removed versions of adapt-coverMenu(menutype) older than 4.0.0
+info [14 Jul 21 22:22:31 +08:00] Successfully copied adapt-coverMenu to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/menu/adapt-coverMenu
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:22:45 +08:00] Added package: adapt-devtools
+info [14 Jul 21 22:22:45 +08:00] searching old package types ... 
+info [14 Jul 21 22:22:45 +08:00] Successfully removed versions of adapt-devtools(extensiontype) older than 2.1.15
+info [14 Jul 21 22:22:45 +08:00] Successfully copied adapt-devtools to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-devtools
+info [14 Jul 21 22:22:52 +08:00] Added package: adapt-download-button
+info [14 Jul 21 22:22:52 +08:00] searching old package types ... 
+info [14 Jul 21 22:22:53 +08:00] Successfully removed versions of adapt-download-button(componenttype) older than 1.0.0
+info [14 Jul 21 22:22:53 +08:00] Successfully copied adapt-download-button to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-download-button
+info [14 Jul 21 22:23:02 +08:00] Added package: adapt-dragndrop
+info [14 Jul 21 22:23:02 +08:00] searching old package types ... 
+info [14 Jul 21 22:23:02 +08:00] Successfully removed versions of adapt-dragndrop(componenttype) older than 1.3.1
+info [14 Jul 21 22:23:02 +08:00] Successfully copied adapt-dragndrop to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-dragndrop
+info [14 Jul 21 22:23:08 +08:00] Added package: adapt-dragndropwithimage
+info [14 Jul 21 22:23:08 +08:00] searching old package types ... 
+info [14 Jul 21 22:23:08 +08:00] Successfully removed versions of adapt-dragndropwithimage(componenttype) older than 1.2.7
+info [14 Jul 21 22:23:08 +08:00] Successfully copied adapt-dragndropwithimage to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-dragndropwithimage
+info [14 Jul 21 22:23:28 +08:00] Added package: adapt-elfh-build-notes
+info [14 Jul 21 22:23:28 +08:00] searching old package types ... 
+info [14 Jul 21 22:23:28 +08:00] Successfully removed versions of adapt-elfh-build-notes(extensiontype) older than 1.0.2
+info [14 Jul 21 22:23:28 +08:00] Successfully copied adapt-elfh-build-notes to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-elfh-build-notes
+info [14 Jul 21 22:23:41 +08:00] Added package: adapt-enhanced-question
+info [14 Jul 21 22:23:41 +08:00] searching old package types ... 
+info [14 Jul 21 22:23:41 +08:00] Successfully removed versions of adapt-enhanced-question(extensiontype) older than 3.3.1
+info [14 Jul 21 22:23:41 +08:00] Successfully copied adapt-enhanced-question to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-enhanced-question
+info [14 Jul 21 22:23:55 +08:00] Added package: adapt-expose
+info [14 Jul 21 22:23:55 +08:00] searching old package types ... 
+info [14 Jul 21 22:23:55 +08:00] Successfully removed versions of adapt-expose(componenttype) older than 1.1.5
+info [14 Jul 21 22:23:55 +08:00] Successfully copied adapt-expose to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-expose
+info [14 Jul 21 22:24:02 +08:00] Added package: adapt-FKCAudio
+info [14 Jul 21 22:24:02 +08:00] searching old package types ... 
+info [14 Jul 21 22:24:02 +08:00] Successfully removed versions of adapt-FKCAudio(componenttype) older than 1.0.3
+info [14 Jul 21 22:24:02 +08:00] Successfully copied adapt-FKCAudio to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-FKCAudio
+info [14 Jul 21 22:24:09 +08:00] Added package: adapt-FKCContact
+info [14 Jul 21 22:24:09 +08:00] searching old package types ... 
+info [14 Jul 21 22:24:09 +08:00] Successfully removed versions of adapt-FKCContact(extensiontype) older than 1.0.0
+info [14 Jul 21 22:24:09 +08:00] Successfully copied adapt-FKCContact to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-FKCContact
+info [14 Jul 21 22:24:15 +08:00] Added package: adapt-flipcard-audio
+info [14 Jul 21 22:24:15 +08:00] searching old package types ... 
+info [14 Jul 21 22:24:15 +08:00] Successfully removed versions of adapt-flipcard-audio(componenttype) older than 3.0.2
+info [14 Jul 21 22:24:15 +08:00] Successfully copied adapt-flipcard-audio to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-flipcard-audio
+info [14 Jul 21 22:24:22 +08:00] Added package: adapt-flipper
+info [14 Jul 21 22:24:22 +08:00] searching old package types ... 
+info [14 Jul 21 22:24:22 +08:00] Successfully removed versions of adapt-flipper(componenttype) older than 1.0.5
+info [14 Jul 21 22:24:22 +08:00] Successfully copied adapt-flipper to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-flipper
+info [14 Jul 21 22:24:30 +08:00] Added package: adapt-contrib-game
+info [14 Jul 21 22:24:30 +08:00] searching old package types ... 
+info [14 Jul 21 22:24:30 +08:00] Successfully removed versions of adapt-contrib-game(componenttype) older than 4.1.0
+info [14 Jul 21 22:24:30 +08:00] Successfully copied adapt-contrib-game to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-game
+info [14 Jul 21 22:24:37 +08:00] Added package: adapt-graphicLottie
+info [14 Jul 21 22:24:37 +08:00] searching old package types ... 
+info [14 Jul 21 22:24:37 +08:00] Successfully removed versions of adapt-graphicLottie(extensiontype) older than 0.0.16
+info [14 Jul 21 22:24:37 +08:00] Successfully copied adapt-graphicLottie to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-graphicLottie
+info [14 Jul 21 22:24:45 +08:00] Added package: adapt-hint
+info [14 Jul 21 22:24:45 +08:00] searching old package types ... 
+info [14 Jul 21 22:24:45 +08:00] Successfully removed versions of adapt-hint(extensiontype) older than 3.0.0
+info [14 Jul 21 22:24:45 +08:00] Successfully copied adapt-hint to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-hint
+info [14 Jul 21 22:24:53 +08:00] Added package: adapt-hotgrid-audio
+info [14 Jul 21 22:24:53 +08:00] searching old package types ... 
+info [14 Jul 21 22:24:53 +08:00] Successfully removed versions of adapt-hotgrid-audio(componenttype) older than 3.1.0
+info [14 Jul 21 22:24:53 +08:00] Successfully copied adapt-hotgrid-audio to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-hotgrid-audio
+info [14 Jul 21 22:25:07 +08:00] Added package: adapt-hotspot-menu-audio
+info [14 Jul 21 22:25:07 +08:00] searching old package types ... 
+info [14 Jul 21 22:25:07 +08:00] Successfully removed versions of adapt-hotspot-menu-audio(menutype) older than 3.2.0
+info [14 Jul 21 22:25:07 +08:00] Successfully copied adapt-hotspot-menu-audio to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/menu/adapt-hotspot-menu-audio
+info [14 Jul 21 22:25:18 +08:00] Added package: adapt-hotspotMenu
+info [14 Jul 21 22:25:18 +08:00] searching old package types ... 
+info [14 Jul 21 22:25:18 +08:00] Successfully removed versions of adapt-hotspotMenu(menutype) older than 3.0.0
+info [14 Jul 21 22:25:18 +08:00] Successfully copied adapt-hotspotMenu to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/menu/adapt-hotspotMenu
+info [14 Jul 21 22:25:27 +08:00] Added package: adapt-icon-popup
+info [14 Jul 21 22:25:27 +08:00] searching old package types ... 
+info [14 Jul 21 22:25:27 +08:00] Successfully removed versions of adapt-icon-popup(extensiontype) older than 3.1.0
+info [14 Jul 21 22:25:27 +08:00] Successfully copied adapt-icon-popup to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-icon-popup
+info [14 Jul 21 22:25:36 +08:00] Added package: adapt-iframe
+info [14 Jul 21 22:25:36 +08:00] searching old package types ... 
+info [14 Jul 21 22:25:36 +08:00] Successfully removed versions of adapt-iframe(componenttype) older than 2.1.0
+info [14 Jul 21 22:25:36 +08:00] Successfully copied adapt-iframe to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-iframe
+info [14 Jul 21 22:25:46 +08:00] Added package: adapt-imageSlider
+info [14 Jul 21 22:25:46 +08:00] searching old package types ... 
+info [14 Jul 21 22:25:46 +08:00] Successfully removed versions of adapt-imageSlider(componenttype) older than 1.0.0
+info [14 Jul 21 22:25:46 +08:00] Successfully copied adapt-imageSlider to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-imageSlider
+info [14 Jul 21 22:25:57 +08:00] Added package: adapt-inspector
+info [14 Jul 21 22:25:57 +08:00] searching old package types ... 
+info [14 Jul 21 22:25:57 +08:00] Successfully removed versions of adapt-inspector(extensiontype) older than 0.6.3
+info [14 Jul 21 22:25:57 +08:00] Successfully copied adapt-inspector to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-inspector
+info [14 Jul 21 22:26:05 +08:00] Added package: adapt-kentico-theme
+info [14 Jul 21 22:26:05 +08:00] searching old package types ... 
+info [14 Jul 21 22:26:05 +08:00] Successfully removed versions of adapt-kentico-theme(themetype) older than 0.1.3
+info [14 Jul 21 22:26:05 +08:00] Successfully copied adapt-kentico-theme to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/theme/adapt-kentico-theme
+info [14 Jul 21 22:26:13 +08:00] Added package: adapt-launchNewWindow
+info [14 Jul 21 22:26:13 +08:00] searching old package types ... 
+info [14 Jul 21 22:26:13 +08:00] Successfully removed versions of adapt-launchNewWindow(extensiontype) older than 0.1.0
+info [14 Jul 21 22:26:13 +08:00] Successfully copied adapt-launchNewWindow to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-launchNewWindow
+info [14 Jul 21 22:26:23 +08:00] Added package: adapt-logo
+info [14 Jul 21 22:26:23 +08:00] searching old package types ... 
+info [14 Jul 21 22:26:23 +08:00] Successfully removed versions of adapt-logo(extensiontype) older than 2.2.0
+info [14 Jul 21 22:26:23 +08:00] Successfully copied adapt-logo to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-logo
+info [14 Jul 21 22:26:35 +08:00] Added package: adapt-mathJax
+info [14 Jul 21 22:26:35 +08:00] searching old package types ... 
+info [14 Jul 21 22:26:35 +08:00] Successfully removed versions of adapt-mathJax(extensiontype) older than 0.2.2
+info [14 Jul 21 22:26:35 +08:00] Successfully copied adapt-mathJax to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-mathJax
+info [14 Jul 21 22:26:41 +08:00] Added package: adapt-mcq-exserlan-sjs
+info [14 Jul 21 22:26:41 +08:00] searching old package types ... 
+info [14 Jul 21 22:26:41 +08:00] Successfully removed versions of adapt-mcq-exserlan-sjs(componenttype) older than 1.0.0
+info [14 Jul 21 22:26:41 +08:00] Successfully copied adapt-mcq-exserlan-sjs to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-mcq-exserlan-sjs
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:26:57 +08:00] Added package: adapt-media-autoplay
+info [14 Jul 21 22:26:57 +08:00] searching old package types ... 
+info [14 Jul 21 22:26:57 +08:00] Successfully removed versions of adapt-media-autoplay(componenttype) older than 3.0.12
+info [14 Jul 21 22:26:57 +08:00] Successfully copied adapt-media-autoplay to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-media-autoplay
+info [14 Jul 21 22:27:08 +08:00] Added package: adapt-milestone-exserlan-sjs
+info [14 Jul 21 22:27:08 +08:00] searching old package types ... 
+info [14 Jul 21 22:27:08 +08:00] Successfully removed versions of adapt-milestone-exserlan-sjs(componenttype) older than 1.0.0
+info [14 Jul 21 22:27:08 +08:00] Successfully copied adapt-milestone-exserlan-sjs to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-milestone-exserlan-sjs
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:27:34 +08:00] Added package: adapt-nameInput
+info [14 Jul 21 22:27:34 +08:00] searching old package types ... 
+info [14 Jul 21 22:27:34 +08:00] Successfully removed versions of adapt-nameInput(extensiontype) older than 0.1.4
+info [14 Jul 21 22:27:34 +08:00] Successfully copied adapt-nameInput to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-nameInput
+info [14 Jul 21 22:27:41 +08:00] Added package: adapt-narrativeCode
+info [14 Jul 21 22:27:41 +08:00] searching old package types ... 
+info [14 Jul 21 22:27:41 +08:00] Successfully removed versions of adapt-narrativeCode(componenttype) older than 2.1.0
+info [14 Jul 21 22:27:41 +08:00] Successfully copied adapt-narrativeCode to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-narrativeCode
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:28:04 +08:00] Added package: adapt-narrativeStrip
+info [14 Jul 21 22:28:04 +08:00] searching old package types ... 
+info [14 Jul 21 22:28:04 +08:00] Successfully removed versions of adapt-narrativeStrip(componenttype) older than 2.0.1
+info [14 Jul 21 22:28:04 +08:00] Successfully copied adapt-narrativeStrip to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-narrativeStrip
+info [14 Jul 21 22:28:14 +08:00] Added package: adapt-ppq-audio
+info [14 Jul 21 22:28:14 +08:00] searching old package types ... 
+info [14 Jul 21 22:28:14 +08:00] Successfully removed versions of adapt-ppq-audio(componenttype) older than 3.0.1
+info [14 Jul 21 22:28:14 +08:00] Successfully copied adapt-ppq-audio to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-ppq-audio
+info [14 Jul 21 22:28:20 +08:00] Added package: adapt-ppq
+info [14 Jul 21 22:28:20 +08:00] searching old package types ... 
+info [14 Jul 21 22:28:20 +08:00] Successfully removed versions of adapt-ppq(componenttype) older than 2.0.3
+info [14 Jul 21 22:28:20 +08:00] Successfully copied adapt-ppq to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-ppq
+info [14 Jul 21 22:28:27 +08:00] Added package: adapt-quicknav
+info [14 Jul 21 22:28:27 +08:00] searching old package types ... 
+info [14 Jul 21 22:28:27 +08:00] Successfully removed versions of adapt-quicknav(componenttype) older than 3.1.1
+info [14 Jul 21 22:28:27 +08:00] Successfully copied adapt-quicknav to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-quicknav
+info [14 Jul 21 22:28:37 +08:00] Added package: adapt-scenario-audio
+info [14 Jul 21 22:28:37 +08:00] searching old package types ... 
+info [14 Jul 21 22:28:37 +08:00] Successfully removed versions of adapt-scenario-audio(componenttype) older than 3.0.1
+info [14 Jul 21 22:28:37 +08:00] Successfully copied adapt-scenario-audio to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-scenario-audio
+info [14 Jul 21 22:28:45 +08:00] Added package: adapt-search
+info [14 Jul 21 22:28:45 +08:00] searching old package types ... 
+info [14 Jul 21 22:28:45 +08:00] Successfully removed versions of adapt-search(extensiontype) older than 2.3.3
+info [14 Jul 21 22:28:45 +08:00] Successfully copied adapt-search to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-search
+info [14 Jul 21 22:28:55 +08:00] Added package: adapt-sentenceOrdering
+info [14 Jul 21 22:28:55 +08:00] searching old package types ... 
+info [14 Jul 21 22:28:55 +08:00] Successfully removed versions of adapt-sentenceOrdering(componenttype) older than 2.1.0
+info [14 Jul 21 22:28:55 +08:00] Successfully copied adapt-sentenceOrdering to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-sentenceOrdering
+info [14 Jul 21 22:29:03 +08:00] Added package: adapt-simpleVideoBranching
+info [14 Jul 21 22:29:03 +08:00] searching old package types ... 
+info [14 Jul 21 22:29:03 +08:00] Successfully removed versions of adapt-simpleVideoBranching(componenttype) older than 0.1.2
+info [14 Jul 21 22:29:03 +08:00] Successfully copied adapt-simpleVideoBranching to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-simpleVideoBranching
+info [14 Jul 21 22:29:09 +08:00] Added package: adapt-slidingPuzzle
+info [14 Jul 21 22:29:09 +08:00] searching old package types ... 
+info [14 Jul 21 22:29:09 +08:00] Successfully removed versions of adapt-slidingPuzzle(componenttype) older than 0.1.4
+info [14 Jul 21 22:29:09 +08:00] Successfully copied adapt-slidingPuzzle to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-slidingPuzzle
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:29:26 +08:00] Added package: adapt-sortable
+info [14 Jul 21 22:29:26 +08:00] searching old package types ... 
+info [14 Jul 21 22:29:26 +08:00] Successfully removed versions of adapt-sortable(componenttype) older than 1.1.2
+info [14 Jul 21 22:29:26 +08:00] Successfully copied adapt-sortable to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-sortable
+info [14 Jul 21 22:29:35 +08:00] Added package: adapt-stacklist
+info [14 Jul 21 22:29:35 +08:00] searching old package types ... 
+info [14 Jul 21 22:29:35 +08:00] Successfully removed versions of adapt-stacklist(componenttype) older than 4.0.0
+info [14 Jul 21 22:29:35 +08:00] Successfully copied adapt-stacklist to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-stacklist
+info [14 Jul 21 22:29:43 +08:00] Added package: adapt-submitAll
+info [14 Jul 21 22:29:43 +08:00] searching old package types ... 
+info [14 Jul 21 22:29:43 +08:00] Successfully removed versions of adapt-submitAll(extensiontype) older than 2.0.1
+info [14 Jul 21 22:29:43 +08:00] Successfully copied adapt-submitAll to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-submitAll
+info [14 Jul 21 22:29:51 +08:00] Added package: adapt-svg
+info [14 Jul 21 22:29:51 +08:00] searching old package types ... 
+info [14 Jul 21 22:29:51 +08:00] Successfully removed versions of adapt-svg(componenttype) older than 3.0.2
+info [14 Jul 21 22:29:51 +08:00] Successfully copied adapt-svg to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-svg
+info [14 Jul 21 22:30:00 +08:00] Added package: adapt-tabs-audio
+info [14 Jul 21 22:30:00 +08:00] searching old package types ... 
+info [14 Jul 21 22:30:00 +08:00] Successfully removed versions of adapt-tabs-audio(componenttype) older than 3.1.1
+info [14 Jul 21 22:30:00 +08:00] Successfully copied adapt-tabs-audio to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-tabs-audio
+info [14 Jul 21 22:30:08 +08:00] Added package: adapt-tabs
+info [14 Jul 21 22:30:08 +08:00] searching old package types ... 
+info [14 Jul 21 22:30:08 +08:00] Successfully removed versions of adapt-tabs(componenttype) older than 2.1.0
+info [14 Jul 21 22:30:08 +08:00] Successfully copied adapt-tabs to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-tabs
+info [14 Jul 21 22:30:14 +08:00] Added package: adapt-textEntry-audio
+info [14 Jul 21 22:30:14 +08:00] searching old package types ... 
+info [14 Jul 21 22:30:14 +08:00] Successfully removed versions of adapt-textEntry-audio(componenttype) older than 4.2.1
+info [14 Jul 21 22:30:14 +08:00] Successfully copied adapt-textEntry-audio to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-textEntry-audio
+info [14 Jul 21 22:30:20 +08:00] Added package: adapt-contrib-textNotify
+info [14 Jul 21 22:30:20 +08:00] searching old package types ... 
+info [14 Jul 21 22:30:20 +08:00] Successfully removed versions of adapt-contrib-textNotify(componenttype) older than 0.0.9
+info [14 Jul 21 22:30:20 +08:00] Successfully copied adapt-contrib-textNotify to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-contrib-textNotify
+info [14 Jul 21 22:30:27 +08:00] Added package: adapt-theme-delta
+info [14 Jul 21 22:30:27 +08:00] searching old package types ... 
+info [14 Jul 21 22:30:27 +08:00] Successfully removed versions of adapt-theme-delta(themetype) older than 2.1.7
+info [14 Jul 21 22:30:27 +08:00] Successfully copied adapt-theme-delta to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/theme/adapt-theme-delta
+info [14 Jul 21 22:30:37 +08:00] Added package: adapt-theme-take5
+info [14 Jul 21 22:30:37 +08:00] searching old package types ... 
+info [14 Jul 21 22:30:37 +08:00] Successfully removed versions of adapt-theme-take5(themetype) older than 3.0.4
+info [14 Jul 21 22:30:37 +08:00] Successfully copied adapt-theme-take5 to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/theme/adapt-theme-take5
+info [14 Jul 21 22:30:43 +08:00] Added package: adapt-tilesMenu
+info [14 Jul 21 22:30:43 +08:00] searching old package types ... 
+info [14 Jul 21 22:30:43 +08:00] Successfully removed versions of adapt-tilesMenu(menutype) older than 3.0.9
+info [14 Jul 21 22:30:43 +08:00] Successfully copied adapt-tilesMenu to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/menu/adapt-tilesMenu
+info [14 Jul 21 22:30:50 +08:00] Added package: adapt-timed-mcq
+info [14 Jul 21 22:30:50 +08:00] searching old package types ... 
+info [14 Jul 21 22:30:50 +08:00] Successfully removed versions of adapt-timed-mcq(componenttype) older than 2.0.6
+info [14 Jul 21 22:30:50 +08:00] Successfully copied adapt-timed-mcq to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-timed-mcq
+info [14 Jul 21 22:30:58 +08:00] Added package: adapt-toolbox
+info [14 Jul 21 22:30:58 +08:00] searching old package types ... 
+info [14 Jul 21 22:30:58 +08:00] Successfully removed versions of adapt-toolbox(extensiontype) older than 3.0.0
+info [14 Jul 21 22:30:58 +08:00] Successfully copied adapt-toolbox to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-toolbox
+info [14 Jul 21 22:31:04 +08:00] Added package: adapt-visTimeline
+info [14 Jul 21 22:31:04 +08:00] searching old package types ... 
+info [14 Jul 21 22:31:04 +08:00] Successfully removed versions of adapt-visTimeline(componenttype) older than 0.1.1
+info [14 Jul 21 22:31:04 +08:00] Successfully copied adapt-visTimeline to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-visTimeline
+Error: Package is not a valid componenttype package
+Error: You already have this version of the plugin installed.
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:31:32 +08:00] Added package: adapt-tilesMenu
+info [14 Jul 21 22:31:32 +08:00] searching old package types ... 
+info [14 Jul 21 22:31:32 +08:00] Successfully removed versions of adapt-tilesMenu(menutype) older than 3.1.4
+info [14 Jul 21 22:31:32 +08:00] Successfully copied adapt-tilesMenu to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/menu/adapt-tilesMenu
+Error: This plugin is incompatible with version 5.14.0 of the Adapt framework.
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:31:49 +08:00] Added package: adapt-accordionwithpopup
+info [14 Jul 21 22:31:49 +08:00] searching old package types ... 
+info [14 Jul 21 22:31:49 +08:00] Successfully removed versions of adapt-accordionwithpopup(componenttype) older than 1.0.3
+info [14 Jul 21 22:31:49 +08:00] Successfully copied adapt-accordionwithpopup to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-accordionwithpopup
+info [14 Jul 21 22:31:56 +08:00] Added package: adapt-adaptiveContent
+info [14 Jul 21 22:31:56 +08:00] searching old package types ... 
+info [14 Jul 21 22:31:56 +08:00] Successfully removed versions of adapt-adaptiveContent(extensiontype) older than 0.1.0
+info [14 Jul 21 22:31:56 +08:00] Successfully copied adapt-adaptiveContent to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-adaptiveContent
+Error: Unrecognised plugin type for package adapt-animation-hotspot.
+info [14 Jul 21 22:32:07 +08:00] Added package: adapt-articleBlockSlider
+info [14 Jul 21 22:32:07 +08:00] searching old package types ... 
+info [14 Jul 21 22:32:07 +08:00] Successfully removed versions of adapt-articleBlockSlider(extensiontype) older than 3.0.1
+info [14 Jul 21 22:32:07 +08:00] Successfully copied adapt-articleBlockSlider to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-articleBlockSlider
+info [14 Jul 21 22:32:15 +08:00] Added package: adapt-article-reveal
+info [14 Jul 21 22:32:15 +08:00] searching old package types ... 
+info [14 Jul 21 22:32:15 +08:00] Successfully removed versions of adapt-article-reveal(extensiontype) older than 2.1.0
+info [14 Jul 21 22:32:15 +08:00] Successfully copied adapt-article-reveal to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-article-reveal
+Error: Package does not contain a schema
+info [14 Jul 21 22:32:32 +08:00] Added package: adapt-backButton
+info [14 Jul 21 22:32:32 +08:00] searching old package types ... 
+info [14 Jul 21 22:32:32 +08:00] Successfully removed versions of adapt-backButton(extensiontype) older than 0.1.1
+info [14 Jul 21 22:32:32 +08:00] Successfully copied adapt-backButton to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-backButton
+info [14 Jul 21 22:32:41 +08:00] Added package: adapt-background-switcher
+info [14 Jul 21 22:32:41 +08:00] searching old package types ... 
+info [14 Jul 21 22:32:41 +08:00] Successfully removed versions of adapt-background-switcher(extensiontype) older than 2.0.1
+info [14 Jul 21 22:32:41 +08:00] Successfully copied adapt-background-switcher to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-background-switcher
+info [14 Jul 21 22:32:52 +08:00] Added package: adapt-carousel-menu
+info [14 Jul 21 22:32:52 +08:00] searching old package types ... 
+info [14 Jul 21 22:32:52 +08:00] Successfully removed versions of adapt-carousel-menu(menutype) older than 2.1.7
+info [14 Jul 21 22:32:52 +08:00] Successfully copied adapt-carousel-menu to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/menu/adapt-carousel-menu
+info [14 Jul 21 22:32:58 +08:00] Added package: adapt-cmcq
+info [14 Jul 21 22:32:58 +08:00] searching old package types ... 
+info [14 Jul 21 22:32:58 +08:00] Successfully removed versions of adapt-cmcq(componenttype) older than 0.5.2
+info [14 Jul 21 22:32:58 +08:00] Successfully copied adapt-cmcq to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-cmcq
+info [14 Jul 21 22:33:04 +08:00] Added package: adapt-courseWindowSettings
+info [14 Jul 21 22:33:04 +08:00] searching old package types ... 
+info [14 Jul 21 22:33:04 +08:00] Successfully removed versions of adapt-courseWindowSettings(extensiontype) older than 1.0.1
+info [14 Jul 21 22:33:04 +08:00] Successfully copied adapt-courseWindowSettings to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-courseWindowSettings
+info [14 Jul 21 22:33:11 +08:00] Added package: adapt-custom-completion
+info [14 Jul 21 22:33:11 +08:00] searching old package types ... 
+info [14 Jul 21 22:33:11 +08:00] Successfully removed versions of adapt-custom-completion(extensiontype) older than 1.0.1
+info [14 Jul 21 22:33:11 +08:00] Successfully copied adapt-custom-completion to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-custom-completion
+info [14 Jul 21 22:33:22 +08:00] Added package: adapt-diagnosticResults
+info [14 Jul 21 22:33:22 +08:00] searching old package types ... 
+info [14 Jul 21 22:33:22 +08:00] Successfully removed versions of adapt-diagnosticResults(componenttype) older than 0.1.0
+info [14 Jul 21 22:33:22 +08:00] Successfully copied adapt-diagnosticResults to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-diagnosticResults
+info [14 Jul 21 22:33:29 +08:00] Added package: adapt-elfh-inactivity-timeout
+info [14 Jul 21 22:33:29 +08:00] searching old package types ... 
+info [14 Jul 21 22:33:29 +08:00] Successfully removed versions of adapt-elfh-inactivity-timeout(extensiontype) older than 1.0.4
+info [14 Jul 21 22:33:29 +08:00] Successfully copied adapt-elfh-inactivity-timeout to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-elfh-inactivity-timeout
+info [14 Jul 21 22:33:37 +08:00] Added package: adapt-exitButton
+info [14 Jul 21 22:33:37 +08:00] searching old package types ... 
+info [14 Jul 21 22:33:37 +08:00] Successfully removed versions of adapt-exitButton(extensiontype) older than 1.0.11
+info [14 Jul 21 22:33:37 +08:00] Successfully copied adapt-exitButton to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-exitButton
+info [14 Jul 21 22:33:45 +08:00] Added package: adapt-goTop
+info [14 Jul 21 22:33:45 +08:00] searching old package types ... 
+info [14 Jul 21 22:33:45 +08:00] Successfully removed versions of adapt-goTop(extensiontype) older than 2.0.0
+info [14 Jul 21 22:33:45 +08:00] Successfully copied adapt-goTop to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-goTop
+info [14 Jul 21 22:33:50 +08:00] Added package: adapt-graphicWithLink
+info [14 Jul 21 22:33:50 +08:00] searching old package types ... 
+info [14 Jul 21 22:33:50 +08:00] Successfully removed versions of adapt-graphicWithLink(componenttype) older than 1.0.0
+info [14 Jul 21 22:33:50 +08:00] Successfully copied adapt-graphicWithLink to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-graphicWithLink
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:34:02 +08:00] Added package: adapt-homeButton
+info [14 Jul 21 22:34:02 +08:00] searching old package types ... 
+info [14 Jul 21 22:34:02 +08:00] Successfully removed versions of adapt-homeButton(extensiontype) older than 0.1.0
+info [14 Jul 21 22:34:02 +08:00] Successfully copied adapt-homeButton to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-homeButton
+info [14 Jul 21 22:34:07 +08:00] Added package: adapt-imagemap-menu
+info [14 Jul 21 22:34:07 +08:00] searching old package types ... 
+info [14 Jul 21 22:34:07 +08:00] Successfully removed versions of adapt-imagemap-menu(menutype) older than 0.78
+info [14 Jul 21 22:34:07 +08:00] Successfully copied adapt-imagemap-menu to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/menu/adapt-imagemap-menu
+Error: You already have this version of the plugin installed.
+Error: You already have this version of the plugin installed.
+Error: Package does not contain a schema
+Error: You already have this version of the plugin installed.
+Error: This plugin is incompatible with version 5.14.0 of the Adapt framework.
+Error: This plugin is incompatible with version 5.14.0 of the Adapt framework.
+info [14 Jul 21 22:47:59 +08:00] Added package: adapt-page2TextFile
+info [14 Jul 21 22:47:59 +08:00] searching old package types ... 
+info [14 Jul 21 22:47:59 +08:00] Successfully removed versions of adapt-page2TextFile(extensiontype) older than 5.1.7
+info [14 Jul 21 22:47:59 +08:00] Successfully copied adapt-page2TextFile to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-page2TextFile
+info [14 Jul 21 22:48:06 +08:00] Added package: adapt-pageIncompletePrompt
+info [14 Jul 21 22:48:06 +08:00] searching old package types ... 
+info [14 Jul 21 22:48:06 +08:00] Successfully removed versions of adapt-pageIncompletePrompt(extensiontype) older than 2.1.1
+info [14 Jul 21 22:48:06 +08:00] Successfully copied adapt-pageIncompletePrompt to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-pageIncompletePrompt
+info [14 Jul 21 22:48:17 +08:00] Added package: adapt-pagesInNavBar
+info [14 Jul 21 22:48:17 +08:00] searching old package types ... 
+info [14 Jul 21 22:48:17 +08:00] Successfully removed versions of adapt-pagesInNavBar(extensiontype) older than 1.0.1
+info [14 Jul 21 22:48:17 +08:00] Successfully copied adapt-pagesInNavBar to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-pagesInNavBar
+info [14 Jul 21 22:48:30 +08:00] Added package: parallax-background-switcher
+info [14 Jul 21 22:48:30 +08:00] searching old package types ... 
+info [14 Jul 21 22:48:30 +08:00] Successfully removed versions of parallax-background-switcher(extensiontype) older than 2.0.1
+info [14 Jul 21 22:48:30 +08:00] Successfully copied parallax-background-switcher to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/parallax-background-switcher
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:48:53 +08:00] Added package: adapt-block-branching
+info [14 Jul 21 22:48:53 +08:00] searching old package types ... 
+info [14 Jul 21 22:48:53 +08:00] Successfully removed versions of adapt-block-branching(extensiontype) older than 1.0.1
+info [14 Jul 21 22:48:53 +08:00] Successfully copied adapt-block-branching to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-block-branching
+info [14 Jul 21 22:49:01 +08:00] Added package: adapt-scenarioOutcome
+info [14 Jul 21 22:49:01 +08:00] searching old package types ... 
+info [14 Jul 21 22:49:01 +08:00] Successfully removed versions of adapt-scenarioOutcome(componenttype) older than 4.0.2
+info [14 Jul 21 22:49:01 +08:00] Successfully copied adapt-scenarioOutcome to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-scenarioOutcome
+info [14 Jul 21 22:49:17 +08:00] Added package: adapt-sideView
+info [14 Jul 21 22:49:17 +08:00] searching old package types ... 
+info [14 Jul 21 22:49:17 +08:00] Successfully removed versions of adapt-sideView(extensiontype) older than 1.4.2
+info [14 Jul 21 22:49:17 +08:00] Successfully copied adapt-sideView to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-sideView
+info [14 Jul 21 22:49:25 +08:00] Added package: adapt-simple-table
+info [14 Jul 21 22:49:25 +08:00] searching old package types ... 
+info [14 Jul 21 22:49:25 +08:00] Successfully removed versions of adapt-simple-table(componenttype) older than 3.0.0
+info [14 Jul 21 22:49:25 +08:00] Successfully copied adapt-simple-table to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-simple-table
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:49:42 +08:00] Added package: adapt-social
+info [14 Jul 21 22:49:42 +08:00] searching old package types ... 
+info [14 Jul 21 22:49:42 +08:00] Successfully removed versions of adapt-social(extensiontype) older than 1.4.0
+info [14 Jul 21 22:49:42 +08:00] Successfully copied adapt-social to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-social
+info [14 Jul 21 22:49:50 +08:00] Added package: adapt-svgWrapper
+info [14 Jul 21 22:49:50 +08:00] searching old package types ... 
+info [14 Jul 21 22:49:50 +08:00] Successfully removed versions of adapt-svgWrapper(componenttype) older than 1.0.1
+info [14 Jul 21 22:49:50 +08:00] Successfully copied adapt-svgWrapper to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-svgWrapper
+info [14 Jul 21 22:50:00 +08:00] Added package: adapt-table
+info [14 Jul 21 22:50:00 +08:00] searching old package types ... 
+info [14 Jul 21 22:50:00 +08:00] Successfully removed versions of adapt-table(componenttype) older than 1.0.0
+info [14 Jul 21 22:50:00 +08:00] Successfully copied adapt-table to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-table
+info [14 Jul 21 22:50:05 +08:00] Added package: adapt-teleporter
+info [14 Jul 21 22:50:05 +08:00] searching old package types ... 
+info [14 Jul 21 22:50:05 +08:00] Successfully removed versions of adapt-teleporter(extensiontype) older than 1.0.2
+info [14 Jul 21 22:50:05 +08:00] Successfully copied adapt-teleporter to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-teleporter
+info [14 Jul 21 22:50:11 +08:00] Added package: adapt-textInput-inline
+info [14 Jul 21 22:50:11 +08:00] searching old package types ... 
+info [14 Jul 21 22:50:11 +08:00] Successfully removed versions of adapt-textInput-inline(componenttype) older than 0.0.1
+info [14 Jul 21 22:50:11 +08:00] Successfully copied adapt-textInput-inline to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-textInput-inline
+info [14 Jul 21 22:50:18 +08:00] Added package: adapt-textWithCode
+info [14 Jul 21 22:50:18 +08:00] searching old package types ... 
+info [14 Jul 21 22:50:18 +08:00] Successfully removed versions of adapt-textWithCode(componenttype) older than 1.0.0
+info [14 Jul 21 22:50:18 +08:00] Successfully copied adapt-textWithCode to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-textWithCode
+Error: You already have this version of the plugin installed.
+info [14 Jul 21 22:50:36 +08:00] Added package: adapt-textWithPopups
+info [14 Jul 21 22:50:36 +08:00] searching old package types ... 
+info [14 Jul 21 22:50:36 +08:00] Successfully removed versions of adapt-textWithPopups(componenttype) older than 1.0.1
+info [14 Jul 21 22:50:36 +08:00] Successfully copied adapt-textWithPopups to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-textWithPopups
+info [14 Jul 21 22:50:45 +08:00] Added package: adapt-theme-tccs
+info [14 Jul 21 22:50:45 +08:00] searching old package types ... 
+info [14 Jul 21 22:50:45 +08:00] Successfully removed versions of adapt-theme-tccs(themetype) older than 1.0.0
+info [14 Jul 21 22:50:45 +08:00] Successfully copied adapt-theme-tccs to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/theme/adapt-theme-tccs
+info [14 Jul 21 22:50:55 +08:00] Added package: adapt-tooltip
+info [14 Jul 21 22:50:55 +08:00] searching old package types ... 
+info [14 Jul 21 22:50:55 +08:00] Successfully removed versions of adapt-tooltip(extensiontype) older than 2.0.0
+info [14 Jul 21 22:50:55 +08:00] Successfully copied adapt-tooltip to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-tooltip
+info [14 Jul 21 22:51:02 +08:00] Added package: adapt-topNavigator
+info [14 Jul 21 22:51:02 +08:00] searching old package types ... 
+info [14 Jul 21 22:51:02 +08:00] Successfully removed versions of adapt-topNavigator(extensiontype) older than 2.1.0
+info [14 Jul 21 22:51:02 +08:00] Successfully copied adapt-topNavigator to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/extensions/adapt-topNavigator
+Error: This plugin is incompatible with version 5.14.0 of the Adapt framework.
+info [14 Jul 21 22:51:18 +08:00] Added package: adapt-youtube
+info [14 Jul 21 22:51:18 +08:00] searching old package types ... 
+info [14 Jul 21 22:51:18 +08:00] Successfully removed versions of adapt-youtube(componenttype) older than 2.0.0
+info [14 Jul 21 22:51:18 +08:00] Successfully copied adapt-youtube to tenant /adapt_authoring/temp/60ee966de7d517497816988e/adapt_framework/src/components/adapt-youtube
+info [15 Jul 21 12:49:28 +08:00] Retrieving JSON
+info [15 Jul 21 12:49:28 +08:00] All assets processed
+info [17 Jul 21 00:50:00 +08:00] Retrieving JSON
+info [17 Jul 21 00:50:00 +08:00] All assets processed
+info [18 Jul 21 11:30:23 +08:00] Retrieving JSON
+info [18 Jul 21 11:30:24 +08:00] All assets processed
+info [18 Jul 21 22:22:10 +08:00] Retrieving JSON
+info [18 Jul 21 22:22:10 +08:00] All assets processed
