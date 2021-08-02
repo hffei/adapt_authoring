@@ -318,7 +318,7 @@
   "app.errorgeneratingpreview": "错误生成预览，请联系管理员。",
   "app.errorcopy": "复制过程中的错误。",
   "app.errorpaste": "粘贴过程中出错，请重试。",
-  "app.errorsaveasset": "保存时出错",
+  "app.errorsaveasset": "保存时出错,请先录入课程标题",
   "app.errorusernoaccess": " 对不起，现在的用户不能进入这个课程",
   "app.errorpagenoaccesstitle": "拒绝访问",
   "app.errorpagenoaccess": "对不起，您没有正确的权限来查看这个页面。点击下面的按钮进入仪表板。",

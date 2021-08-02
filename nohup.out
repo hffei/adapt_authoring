@@ -2227,3 +2227,1893 @@ info [20 Jul 21 01:00:04 +08:00] Adapt authoring tool 0.10.5.
 info [20 Jul 21 01:00:04 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
 info [20 Jul 21 01:00:04 +08:00] Run node upgrade.js to update your install.
 info [20 Jul 21 01:00:04 +08:00] Server started listening on port 5000
+(node:4474) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4474) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:4474) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:4474) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+info [20 Jul 21 12:30:27 +08:00] configuration loaded from /adapt_authoring/conf/config.json
+info [20 Jul 21 12:30:27 +08:00] Supporting the following authentication types:
+info [20 Jul 21 12:30:27 +08:00] - local
+info [20 Jul 21 12:30:27 +08:00] Connection established: adapt-tenant-builder
+info [20 Jul 21 12:30:29 +08:00] Adapt authoring tool 0.10.5.
+info [20 Jul 21 12:30:29 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
+info [20 Jul 21 12:30:29 +08:00] Run node upgrade.js to update your install.
+info [20 Jul 21 12:30:29 +08:00] Server started listening on port 5000
+error [28 Jul 21 14:54:29 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:54:29 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:54:39 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:54:39 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:54:48 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:54:48 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:55:36 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:55:36 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:55:56 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:55:56 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:56:54 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:56:54 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:57:53 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 14:57:53 +08:00] course validation failed: title: Path `title` is required.
+info [28 Jul 21 14:59:36 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:00:46 +08:00] Retrieving JSON
+info [28 Jul 21 15:00:46 +08:00] All assets processed
+info [28 Jul 21 15:00:46 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:00:46 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:00:46 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [28 Jul 21 15:00:46 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+info [28 Jul 21 15:01:00 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-28 15:00:47 UTC+8)
+copy:componentAssets  353ms  ▇▇ 3%
+copy:componentFonts   171ms  ▇ 1%
+copy:extensionAssets  234ms  ▇ 2%
+copy:extensionFonts   158ms  ▇ 1%
+copy:libraries        375ms  ▇▇ 3%
+copy:required         366ms  ▇▇ 3%
+less:compile          897ms  ▇▇▇ 7%
+handlebars:compile    402ms  ▇▇ 3%
+loading javascript    444ms  ▇▇ 3%
+javascript:compile     9.4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 71%
+Total 13.2s
+
+
+info [28 Jul 21 15:05:23 +08:00] Retrieving JSON
+info [28 Jul 21 15:05:23 +08:00] All assets processed
+info [28 Jul 21 15:07:06 +08:00] Retrieving JSON
+error [28 Jul 21 15:07:06 +08:00] Menu '页面' does not contain any pages
+
+error [28 Jul 21 15:07:06 +08:00] Menu '页面' does not contain any pages
+
+info [28 Jul 21 15:07:15 +08:00] Retrieving JSON
+error [28 Jul 21 15:07:15 +08:00] Menu '页面' does not contain any pages
+
+error [28 Jul 21 15:07:15 +08:00] Menu '页面' does not contain any pages
+
+info [28 Jul 21 15:08:03 +08:00] Retrieving JSON
+error [28 Jul 21 15:08:03 +08:00] Menu '页面' does not contain any pages
+
+error [28 Jul 21 15:08:03 +08:00] Menu '页面' does not contain any pages
+
+info [28 Jul 21 15:08:24 +08:00] Retrieving JSON
+error [28 Jul 21 15:08:24 +08:00] Menu '页面' does not contain any pages
+
+error [28 Jul 21 15:08:24 +08:00] Menu '页面' does not contain any pages
+
+info [28 Jul 21 15:12:06 +08:00] Retrieving JSON
+info [28 Jul 21 15:12:06 +08:00] All assets processed
+info [28 Jul 21 15:12:42 +08:00] Retrieving JSON
+info [28 Jul 21 15:12:42 +08:00] All assets processed
+info [28 Jul 21 15:13:04 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:13:04 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:13:04 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:13:04 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:13:04 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:13:04 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:13:04 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:13:04 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:13:04 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:13:04 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:13:06 +08:00] Retrieving JSON
+info [28 Jul 21 15:13:06 +08:00] All assets processed
+info [28 Jul 21 15:13:06 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:13:06 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:13:06 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [28 Jul 21 15:13:06 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+error [28 Jul 21 15:13:09 +08:00] exec error: Error: Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+[Error [ERR_TLS_CERT_ALTNAME_INVALID] [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com
+  at Object.checkServerIdentity (tls.js:297:12)
+  at TLSSocket.onConnectSecure (_tls_wrap.js:1517:27)
+  at TLSSocket.emit (events.js:376:20)
+  at TLSSocket._finishInit (_tls_wrap.js:932:8)
+  at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:706:12)
+] {
+  reason: "Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com",
+  host: 'localhost',
+  cert: {
+    subject: [Object: null prototype] { CN: 'builder.fei-dao.com' },
+    issuer: [Object: null prototype] {
+      C: 'CN',
+      O: 'TrustAsia Technologies, Inc.',
+      OU: 'Domain Validated SSL',
+      CN: 'TrustAsia TLS RSA CA'
+    },
+    subjectaltname: 'DNS:builder.fei-dao.com',
+    infoAccess: [Object: null prototype] {
+      'OCSP - URI': [Array],
+      'CA Issuers - URI': [Array]
+    },
+    modulus: 'E2C60D16BE341145CB069DD5DB44BB12B1979CA347CD14AB5ED7C2E79BF1697DB980D5A113B3FDF3D372F9853A570FCB1206981534858276FFE28D4102CC9CB5C16510BF73ADFD07EBF39B7A36851004D2EE8FF7229CC393C166FC9BCF41B8E752E05B9AB651B24FBBEF1FD4396DCB2C25B386912836113783F602C9C7BBE917024B7D7A0BFC1AEAD2C6F31D272CA9A5A9BF8387E41ECCAF7980CA9E2E73573B976592DCE991F942D47E4D59117415F005D6CA1E636C3947A0F79D771C59BBD61221846632C1478A5D03DBC0A3DB44B5A2C32B5A23E492296F36195A8E49E6E787D44E7250AD17340572A19061263E6FB21D7F0F45283F7EA7F624641414D4A1',
+    bits: 2048,
+    exponent: '0x10001',
+    pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 c6 0d 16 be 34 11 45 cb 06 9d d5 db 44 bb 12 b1 ... 244 more bytes>,
+    valid_from: 'Jul 14 00:00:00 2021 GMT',
+    valid_to: 'Jul 13 23:59:59 2022 GMT',
+    fingerprint: '0F:FE:A7:AC:93:01:7E:94:E6:4D:0C:1D:29:CA:10:03:D8:13:63:62',
+    fingerprint256: '42:06:56:81:5B:AB:9B:E2:4F:B5:53:54:56:2D:DF:C7:4D:0E:F5:54:23:17:D6:FB:5E:07:3E:20:AB:BD:59:62',
+    ext_key_usage: [ '1.3.6.1.5.5.7.3.1', '1.3.6.1.5.5.7.3.2' ],
+    serialNumber: '02224602EB8372586C67EF8D00403340',
+    raw: <Buffer 30 82 06 12 30 82 04 fa a0 03 02 01 02 02 10 02 22 46 02 eb 83 72 58 6c 67 ef 8d 00 40 33 40 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 72 31 0b ... 1508 more bytes>,
+    issuerCertificate: {
+      subject: [Object: null prototype],
+      issuer: [Object: null prototype],
+      infoAccess: [Object: null prototype],
+      modulus: 'A059AF57FA987EC009BC621D4593532329B43943004E38A55A651FCE7C287E17A7FDDEEEEF64719C514FE5BD51A05109DBCC9851D545767A925A7BE9BB7319D720A743D3F552F5BB4083026CCC616FC28A9779A0AA1683FBD703E65E38D4C0B4FBD3EAAF5F885DC987CE25C8DE4F3E502AD83CCD0C3168AF71E094FD0A83A6A15755844040883DC3C11E5F1603870F0C06C5D256541BE4B67A00CE37532D70DD6D2542E63674BBCA2AF418930EFEE3025B01E45F1A660BD2643390785AF068E4DB2964842271219DC84A6530F5773E9A065935C46108E4F6560275406DAFE87C7DF792DCA66930EC13AC510E75BDEE90E48A60916A4E8211B7DEDDD5F0E8E579',
+      bits: 2048,
+      exponent: '0x10001',
+      pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a0 59 af 57 fa 98 7e c0 09 bc 62 1d 45 93 53 23 29 ... 244 more bytes>,
+      valid_from: 'Dec  8 12:28:26 2017 GMT',
+      valid_to: 'Dec  8 12:28:26 2027 GMT',
+      fingerprint: 'EC:41:91:D1:F3:57:BD:53:94:83:28:6F:A6:7F:D2:19:14:3D:26:11',
+      fingerprint256: '79:F1:F5:AB:69:7D:EB:F1:95:F5:B7:DA:65:F9:53:99:68:2E:DA:EB:80:11:5B:9D:42:A6:AE:5E:2F:A9:88:02',
+      ext_key_usage: [Array],
+      serialNumber: '0580267F06F29553348E1C185A5EEE2E',
+      raw: <Buffer 30 82 04 ae 30 82 03 96 a0 03 02 01 02 02 10 05 80 26 7f 06 f2 95 53 34 8e 1c 18 5a 5e ee 2e 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ... 1152 more bytes>,
+      issuerCertificate: [Object]
+    }
+  },
+  code: 'ERR_TLS_CERT_ALTNAME_INVALID'
+}
+FileError: resource '//fonts.googleapis.com/css?family=Open+Sans:400,300,700' gave this Error:
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com
+ in src/theme/6100fd5f5baaca117a8fdbb7/less/fonts.less on line 4, column 1:
+3 
+4 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+5 
+
+
+error [28 Jul 21 15:13:09 +08:00] stdout error: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-bgImages.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 23 files
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 5 files
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+Fatal error: FileError: resource '//fonts.googleapis.com/css?family=Open+Sans:400,300,700' gave this Error:
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com
+ in src/theme/6100fd5f5baaca117a8fdbb7/less/fonts.less on line 4, column 1:
+3 
+4 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+5 
+
+
+
+Execution Time (2021-07-28 15:13:07 UTC+8)
+loading tasks                57ms  ▇ 3%
+loading grunt-contrib-copy   22ms  ▇ 1%
+copy:componentAssets        200ms  ▇▇▇▇ 10%
+copy:componentFonts         162ms  ▇▇▇ 8%
+copy:extensionAssets        136ms  ▇▇▇ 7%
+copy:extensionFonts         141ms  ▇▇▇ 7%
+copy:coreFonts               35ms  ▇ 2%
+copy:coreLibraries           25ms  ▇ 1%
+copy:libraries              342ms  ▇▇▇▇▇▇ 18%
+copy:required               316ms  ▇▇▇▇▇▇ 16%
+less:compile                422ms  ▇▇▇▇▇▇▇▇ 22%
+Total 1.9s
+
+
+error [28 Jul 21 15:13:09 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+[Error [ERR_TLS_CERT_ALTNAME_INVALID] [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com
+  at Object.checkServerIdentity (tls.js:297:12)
+  at TLSSocket.onConnectSecure (_tls_wrap.js:1517:27)
+  at TLSSocket.emit (events.js:376:20)
+  at TLSSocket._finishInit (_tls_wrap.js:932:8)
+  at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:706:12)
+] {
+  reason: "Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com",
+  host: 'localhost',
+  cert: {
+    subject: [Object: null prototype] { CN: 'builder.fei-dao.com' },
+    issuer: [Object: null prototype] {
+      C: 'CN',
+      O: 'TrustAsia Technologies, Inc.',
+      OU: 'Domain Validated SSL',
+      CN: 'TrustAsia TLS RSA CA'
+    },
+    subjectaltname: 'DNS:builder.fei-dao.com',
+    infoAccess: [Object: null prototype] {
+      'OCSP - URI': [Array],
+      'CA Issuers - URI': [Array]
+    },
+    modulus: 'E2C60D16BE341145CB069DD5DB44BB12B1979CA347CD14AB5ED7C2E79BF1697DB980D5A113B3FDF3D372F9853A570FCB1206981534858276FFE28D4102CC9CB5C16510BF73ADFD07EBF39B7A36851004D2EE8FF7229CC393C166FC9BCF41B8E752E05B9AB651B24FBBEF1FD4396DCB2C25B386912836113783F602C9C7BBE917024B7D7A0BFC1AEAD2C6F31D272CA9A5A9BF8387E41ECCAF7980CA9E2E73573B976592DCE991F942D47E4D59117415F005D6CA1E636C3947A0F79D771C59BBD61221846632C1478A5D03DBC0A3DB44B5A2C32B5A23E492296F36195A8E49E6E787D44E7250AD17340572A19061263E6FB21D7F0F45283F7EA7F624641414D4A1',
+    bits: 2048,
+    exponent: '0x10001',
+    pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 c6 0d 16 be 34 11 45 cb 06 9d d5 db 44 bb 12 b1 ... 244 more bytes>,
+    valid_from: 'Jul 14 00:00:00 2021 GMT',
+    valid_to: 'Jul 13 23:59:59 2022 GMT',
+    fingerprint: '0F:FE:A7:AC:93:01:7E:94:E6:4D:0C:1D:29:CA:10:03:D8:13:63:62',
+    fingerprint256: '42:06:56:81:5B:AB:9B:E2:4F:B5:53:54:56:2D:DF:C7:4D:0E:F5:54:23:17:D6:FB:5E:07:3E:20:AB:BD:59:62',
+    ext_key_usage: [ '1.3.6.1.5.5.7.3.1', '1.3.6.1.5.5.7.3.2' ],
+    serialNumber: '02224602EB8372586C67EF8D00403340',
+    raw: <Buffer 30 82 06 12 30 82 04 fa a0 03 02 01 02 02 10 02 22 46 02 eb 83 72 58 6c 67 ef 8d 00 40 33 40 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 72 31 0b ... 1508 more bytes>,
+    issuerCertificate: {
+      subject: [Object: null prototype],
+      issuer: [Object: null prototype],
+      infoAccess: [Object: null prototype],
+      modulus: 'A059AF57FA987EC009BC621D4593532329B43943004E38A55A651FCE7C287E17A7FDDEEEEF64719C514FE5BD51A05109DBCC9851D545767A925A7BE9BB7319D720A743D3F552F5BB4083026CCC616FC28A9779A0AA1683FBD703E65E38D4C0B4FBD3EAAF5F885DC987CE25C8DE4F3E502AD83CCD0C3168AF71E094FD0A83A6A15755844040883DC3C11E5F1603870F0C06C5D256541BE4B67A00CE37532D70DD6D2542E63674BBCA2AF418930EFEE3025B01E45F1A660BD2643390785AF068E4DB2964842271219DC84A6530F5773E9A065935C46108E4F6560275406DAFE87C7DF792DCA66930EC13AC510E75BDEE90E48A60916A4E8211B7DEDDD5F0E8E579',
+      bits: 2048,
+      exponent: '0x10001',
+      pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a0 59 af 57 fa 98 7e c0 09 bc 62 1d 45 93 53 23 29 ... 244 more bytes>,
+      valid_from: 'Dec  8 12:28:26 2017 GMT',
+      valid_to: 'Dec  8 12:28:26 2027 GMT',
+      fingerprint: 'EC:41:91:D1:F3:57:BD:53:94:83:28:6F:A6:7F:D2:19:14:3D:26:11',
+      fingerprint256: '79:F1:F5:AB:69:7D:EB:F1:95:F5:B7:DA:65:F9:53:99:68:2E:DA:EB:80:11:5B:9D:42:A6:AE:5E:2F:A9:88:02',
+      ext_key_usage: [Array],
+      serialNumber: '0580267F06F29553348E1C185A5EEE2E',
+      raw: <Buffer 30 82 04 ae 30 82 03 96 a0 03 02 01 02 02 10 05 80 26 7f 06 f2 95 53 34 8e 1c 18 5a 5e ee 2e 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ... 1152 more bytes>,
+      issuerCertificate: [Object]
+    }
+  },
+  code: 'ERR_TLS_CERT_ALTNAME_INVALID'
+}
+FileError: resource '//fonts.googleapis.com/css?family=Open+Sans:400,300,700' gave this Error:
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com
+ in src/theme/6100fd5f5baaca117a8fdbb7/less/fonts.less on line 4, column 1:
+3 
+4 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+5 
+
+
+Fatal error: FileError: resource '//fonts.googleapis.com/css?family=Open+Sans:400,300,700' gave this Error:
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com
+ in src/theme/6100fd5f5baaca117a8fdbb7/less/fonts.less on line 4, column 1:
+3 
+4 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+5 
+
+
+error [28 Jul 21 15:13:09 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+[Error [ERR_TLS_CERT_ALTNAME_INVALID] [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com
+  at Object.checkServerIdentity (tls.js:297:12)
+  at TLSSocket.onConnectSecure (_tls_wrap.js:1517:27)
+  at TLSSocket.emit (events.js:376:20)
+  at TLSSocket._finishInit (_tls_wrap.js:932:8)
+  at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:706:12)
+] {
+  reason: "Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com",
+  host: 'localhost',
+  cert: {
+    subject: [Object: null prototype] { CN: 'builder.fei-dao.com' },
+    issuer: [Object: null prototype] {
+      C: 'CN',
+      O: 'TrustAsia Technologies, Inc.',
+      OU: 'Domain Validated SSL',
+      CN: 'TrustAsia TLS RSA CA'
+    },
+    subjectaltname: 'DNS:builder.fei-dao.com',
+    infoAccess: [Object: null prototype] {
+      'OCSP - URI': [Array],
+      'CA Issuers - URI': [Array]
+    },
+    modulus: 'E2C60D16BE341145CB069DD5DB44BB12B1979CA347CD14AB5ED7C2E79BF1697DB980D5A113B3FDF3D372F9853A570FCB1206981534858276FFE28D4102CC9CB5C16510BF73ADFD07EBF39B7A36851004D2EE8FF7229CC393C166FC9BCF41B8E752E05B9AB651B24FBBEF1FD4396DCB2C25B386912836113783F602C9C7BBE917024B7D7A0BFC1AEAD2C6F31D272CA9A5A9BF8387E41ECCAF7980CA9E2E73573B976592DCE991F942D47E4D59117415F005D6CA1E636C3947A0F79D771C59BBD61221846632C1478A5D03DBC0A3DB44B5A2C32B5A23E492296F36195A8E49E6E787D44E7250AD17340572A19061263E6FB21D7F0F45283F7EA7F624641414D4A1',
+    bits: 2048,
+    exponent: '0x10001',
+    pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 e2 c6 0d 16 be 34 11 45 cb 06 9d d5 db 44 bb 12 b1 ... 244 more bytes>,
+    valid_from: 'Jul 14 00:00:00 2021 GMT',
+    valid_to: 'Jul 13 23:59:59 2022 GMT',
+    fingerprint: '0F:FE:A7:AC:93:01:7E:94:E6:4D:0C:1D:29:CA:10:03:D8:13:63:62',
+    fingerprint256: '42:06:56:81:5B:AB:9B:E2:4F:B5:53:54:56:2D:DF:C7:4D:0E:F5:54:23:17:D6:FB:5E:07:3E:20:AB:BD:59:62',
+    ext_key_usage: [ '1.3.6.1.5.5.7.3.1', '1.3.6.1.5.5.7.3.2' ],
+    serialNumber: '02224602EB8372586C67EF8D00403340',
+    raw: <Buffer 30 82 06 12 30 82 04 fa a0 03 02 01 02 02 10 02 22 46 02 eb 83 72 58 6c 67 ef 8d 00 40 33 40 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 72 31 0b ... 1508 more bytes>,
+    issuerCertificate: {
+      subject: [Object: null prototype],
+      issuer: [Object: null prototype],
+      infoAccess: [Object: null prototype],
+      modulus: 'A059AF57FA987EC009BC621D4593532329B43943004E38A55A651FCE7C287E17A7FDDEEEEF64719C514FE5BD51A05109DBCC9851D545767A925A7BE9BB7319D720A743D3F552F5BB4083026CCC616FC28A9779A0AA1683FBD703E65E38D4C0B4FBD3EAAF5F885DC987CE25C8DE4F3E502AD83CCD0C3168AF71E094FD0A83A6A15755844040883DC3C11E5F1603870F0C06C5D256541BE4B67A00CE37532D70DD6D2542E63674BBCA2AF418930EFEE3025B01E45F1A660BD2643390785AF068E4DB2964842271219DC84A6530F5773E9A065935C46108E4F6560275406DAFE87C7DF792DCA66930EC13AC510E75BDEE90E48A60916A4E8211B7DEDDD5F0E8E579',
+      bits: 2048,
+      exponent: '0x10001',
+      pubkey: <Buffer 30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00 a0 59 af 57 fa 98 7e c0 09 bc 62 1d 45 93 53 23 29 ... 244 more bytes>,
+      valid_from: 'Dec  8 12:28:26 2017 GMT',
+      valid_to: 'Dec  8 12:28:26 2027 GMT',
+      fingerprint: 'EC:41:91:D1:F3:57:BD:53:94:83:28:6F:A6:7F:D2:19:14:3D:26:11',
+      fingerprint256: '79:F1:F5:AB:69:7D:EB:F1:95:F5:B7:DA:65:F9:53:99:68:2E:DA:EB:80:11:5B:9D:42:A6:AE:5E:2F:A9:88:02',
+      ext_key_usage: [Array],
+      serialNumber: '0580267F06F29553348E1C185A5EEE2E',
+      raw: <Buffer 30 82 04 ae 30 82 03 96 a0 03 02 01 02 02 10 05 80 26 7f 06 f2 95 53 34 8e 1c 18 5a 5e ee 2e 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 61 31 0b ... 1152 more bytes>,
+      issuerCertificate: [Object]
+    }
+  },
+  code: 'ERR_TLS_CERT_ALTNAME_INVALID'
+}
+FileError: resource '//fonts.googleapis.com/css?family=Open+Sans:400,300,700' gave this Error:
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com
+ in src/theme/6100fd5f5baaca117a8fdbb7/less/fonts.less on line 4, column 1:
+3 
+4 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+5 
+
+
+Fatal error: FileError: resource '//fonts.googleapis.com/css?family=Open+Sans:400,300,700' gave this Error:
+  Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: localhost. is not in the cert's altnames: DNS:builder.fei-dao.com
+ in src/theme/6100fd5f5baaca117a8fdbb7/less/fonts.less on line 4, column 1:
+3 
+4 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+5 
+
+
+info [28 Jul 21 15:14:05 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:14:05 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:14:05 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:14:05 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:14:05 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:14:05 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:14:05 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:14:05 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:14:05 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:14:05 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:14:05 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:14:05 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:14:07 +08:00] Retrieving JSON
+info [28 Jul 21 15:14:07 +08:00] All theme assets processed
+info [28 Jul 21 15:14:07 +08:00] All assets processed
+info [28 Jul 21 15:14:07 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:14:07 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:14:07 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [28 Jul 21 15:14:07 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+info [28 Jul 21 15:14:15 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+>> Cache skipping file: src/plugins.js
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-28 15:14:08 UTC+8)
+copy:componentAssets    208ms  ▇▇ 3%
+copy:componentFonts     182ms  ▇ 3%
+copy:extensionAssets    158ms  ▇ 2%
+copy:extensionFonts     140ms  ▇ 2%
+copy:libraries          338ms  ▇▇ 5%
+copy:required           339ms  ▇▇ 5%
+less:compile            745ms  ▇▇▇▇▇ 11%
+handlebars:compile      347ms  ▇▇ 5%
+loading javascript      187ms  ▇▇ 3%
+javascript:compile         4s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 57%
+scripts:adaptpostbuild   76ms  ▇ 1%
+Total 7s
+
+
+info [28 Jul 21 15:14:56 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:14:56 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:14:59 +08:00] Retrieving JSON
+info [28 Jul 21 15:14:59 +08:00] All theme assets processed
+info [28 Jul 21 15:14:59 +08:00] All assets processed
+info [28 Jul 21 15:14:59 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:14:59 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:14:59 +08:00] 3.3. Using menu: adapt-tilesMenu
+info [28 Jul 21 15:14:59 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-tilesMenu
+error [28 Jul 21 15:15:01 +08:00] exec error: Error: Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-tilesMenu
+NameError: variable @primary-color is undefined in src/menu/adapt-tilesMenu/less/tilesmenu.less on line 38, column 14:
+37 .tilesmenu-menu {
+38 	background: @primary-color;
+39 	.menu-container {
+
+
+error [28 Jul 21 15:15:01 +08:00] stdout error: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-tilesMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-tilesMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+Fatal error: NameError: variable @primary-color is undefined in src/menu/adapt-tilesMenu/less/tilesmenu.less on line 38, column 14:
+37 .tilesmenu-menu {
+38 	background: @primary-color;
+39 	.menu-container {
+
+
+
+Execution Time (2021-07-28 15:14:59 UTC+8)
+loading tasks                56ms  ▇ 3%
+loading grunt-contrib-copy   23ms  ▇ 1%
+copy:componentAssets        215ms  ▇▇▇▇ 10%
+copy:componentFonts         151ms  ▇▇▇ 7%
+copy:extensionAssets        134ms  ▇▇▇ 6%
+copy:extensionFonts         139ms  ▇▇▇ 7%
+copy:coreFonts               33ms  ▇ 2%
+copy:libraries              317ms  ▇▇▇▇▇▇ 15%
+copy:required               343ms  ▇▇▇▇▇▇ 17%
+less:compile                581ms  ▇▇▇▇▇▇▇▇▇▇ 28%
+Total 2.1s
+
+
+error [28 Jul 21 15:15:01 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-tilesMenu
+NameError: variable @primary-color is undefined in src/menu/adapt-tilesMenu/less/tilesmenu.less on line 38, column 14:
+37 .tilesmenu-menu {
+38 	background: @primary-color;
+39 	.menu-container {
+
+
+Fatal error: NameError: variable @primary-color is undefined in src/menu/adapt-tilesMenu/less/tilesmenu.less on line 38, column 14:
+37 .tilesmenu-menu {
+38 	background: @primary-color;
+39 	.menu-container {
+
+
+error [28 Jul 21 15:15:01 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-tilesMenu
+NameError: variable @primary-color is undefined in src/menu/adapt-tilesMenu/less/tilesmenu.less on line 38, column 14:
+37 .tilesmenu-menu {
+38 	background: @primary-color;
+39 	.menu-container {
+
+
+Fatal error: NameError: variable @primary-color is undefined in src/menu/adapt-tilesMenu/less/tilesmenu.less on line 38, column 14:
+37 .tilesmenu-menu {
+38 	background: @primary-color;
+39 	.menu-container {
+
+
+info [28 Jul 21 15:15:15 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:15:15 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:15:17 +08:00] Retrieving JSON
+info [28 Jul 21 15:15:17 +08:00] All theme assets processed
+info [28 Jul 21 15:15:17 +08:00] All assets processed
+info [28 Jul 21 15:15:17 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:15:17 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:15:17 +08:00] 3.3. Using menu: adapt-coverMenu
+info [28 Jul 21 15:15:17 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-coverMenu
+error [28 Jul 21 15:15:19 +08:00] exec error: Error: Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-coverMenu
+SyntaxError: variable @menu-item-progress-fill-color is undefined in src/menu/adapt-coverMenu/less/coverMenu.less on line 5, column 1:
+4 
+5 .generate-styles;
+6 
+
+
+error [28 Jul 21 15:15:19 +08:00] stdout error: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-coverMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-coverMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+Fatal error: SyntaxError: variable @menu-item-progress-fill-color is undefined in src/menu/adapt-coverMenu/less/coverMenu.less on line 5, column 1:
+4 
+5 .generate-styles;
+6 
+
+
+
+Execution Time (2021-07-28 15:15:17 UTC+8)
+loading tasks          52ms  ▇▇ 3%
+copy:componentAssets  205ms  ▇▇▇▇▇ 10%
+copy:componentFonts   162ms  ▇▇▇▇ 8%
+copy:extensionAssets  130ms  ▇▇▇ 7%
+copy:extensionFonts   140ms  ▇▇▇ 7%
+copy:coreFonts         33ms  ▇ 2%
+copy:coreLibraries     20ms  ▇ 1%
+copy:libraries        341ms  ▇▇▇▇▇▇▇ 17%
+copy:required         333ms  ▇▇▇▇▇▇▇ 17%
+less:compile          503ms  ▇▇▇▇▇▇▇▇▇▇▇ 25%
+Total 2s
+
+
+error [28 Jul 21 15:15:19 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-coverMenu
+SyntaxError: variable @menu-item-progress-fill-color is undefined in src/menu/adapt-coverMenu/less/coverMenu.less on line 5, column 1:
+4 
+5 .generate-styles;
+6 
+
+
+Fatal error: SyntaxError: variable @menu-item-progress-fill-color is undefined in src/menu/adapt-coverMenu/less/coverMenu.less on line 5, column 1:
+4 
+5 .generate-styles;
+6 
+
+
+error [28 Jul 21 15:15:19 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-coverMenu
+SyntaxError: variable @menu-item-progress-fill-color is undefined in src/menu/adapt-coverMenu/less/coverMenu.less on line 5, column 1:
+4 
+5 .generate-styles;
+6 
+
+
+Fatal error: SyntaxError: variable @menu-item-progress-fill-color is undefined in src/menu/adapt-coverMenu/less/coverMenu.less on line 5, column 1:
+4 
+5 .generate-styles;
+6 
+
+
+info [28 Jul 21 15:15:28 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:15:28 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:15:37 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:15:37 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:15:49 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:15:49 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:15:58 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:15:58 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:16:17 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:16:17 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:16:20 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:16:20 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:16:31 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:16:31 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:16:35 +08:00] Retrieving JSON
+info [28 Jul 21 15:16:35 +08:00] All theme assets processed
+info [28 Jul 21 15:16:35 +08:00] All assets processed
+info [28 Jul 21 15:16:35 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:16:35 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:16:35 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [28 Jul 21 15:16:35 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+error [28 Jul 21 15:16:38 +08:00] exec error: Error: Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+error [28 Jul 21 15:16:38 +08:00] stdout error: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+- adapt-adaptiveContent
+- adapt-backButton
+- parallax-background-switcher
+- adapt-goTop
+- adapt-homeButton
+- adapt-contrib-xapi
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+Copied 7 files
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+Copied 5 files
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+
+Execution Time (2021-07-28 15:16:36 UTC+8)
+loading tasks          53ms  ▇ 2%
+build-config           34ms  ▇ 2%
+copy:componentAssets  233ms  ▇▇▇▇▇ 11%
+copy:componentFonts   161ms  ▇▇▇ 7%
+copy:extensionAssets  130ms  ▇▇▇ 6%
+copy:extensionFonts   142ms  ▇▇▇ 7%
+copy:coreFonts         36ms  ▇ 2%
+copy:coreLibraries     23ms  ▇ 1%
+copy:libraries        395ms  ▇▇▇▇▇▇▇▇ 18%
+copy:required         335ms  ▇▇▇▇▇▇▇ 16%
+less:compile          576ms  ▇▇▇▇▇▇▇▇▇▇▇ 27%
+Total 2.1s
+
+
+error [28 Jul 21 15:16:38 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+error [28 Jul 21 15:16:38 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+info [28 Jul 21 15:18:06 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:18:06 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:18:10 +08:00] Retrieving JSON
+info [28 Jul 21 15:18:10 +08:00] All theme assets processed
+info [28 Jul 21 15:18:10 +08:00] All assets processed
+info [28 Jul 21 15:18:10 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:18:10 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:18:10 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [28 Jul 21 15:18:10 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+error [28 Jul 21 15:18:13 +08:00] exec error: Error: Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+error [28 Jul 21 15:18:13 +08:00] stdout error: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+- adapt-adaptiveContent
+- adapt-backButton
+- parallax-background-switcher
+- adapt-goTop
+- adapt-homeButton
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+
+Execution Time (2021-07-28 15:18:11 UTC+8)
+loading tasks          57ms  ▇▇ 3%
+build-config           43ms  ▇ 2%
+copy:componentAssets  220ms  ▇▇▇▇▇ 10%
+copy:componentFonts   157ms  ▇▇▇ 7%
+copy:extensionAssets  139ms  ▇▇▇ 6%
+copy:extensionFonts   144ms  ▇▇▇ 7%
+copy:coreFonts         33ms  ▇ 2%
+copy:coreLibraries     23ms  ▇ 1%
+copy:libraries        326ms  ▇▇▇▇▇▇ 15%
+copy:required         323ms  ▇▇▇▇▇▇ 15%
+less:compile          669ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 31%
+Total 2.2s
+
+
+error [28 Jul 21 15:18:13 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+error [28 Jul 21 15:18:13 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+info [28 Jul 21 15:18:34 +08:00] Retrieving JSON
+info [28 Jul 21 15:18:34 +08:00] All theme assets processed
+info [28 Jul 21 15:18:34 +08:00] All assets processed
+info [28 Jul 21 15:18:34 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:18:34 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:18:34 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [28 Jul 21 15:18:34 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+error [28 Jul 21 15:18:37 +08:00] exec error: Error: Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+error [28 Jul 21 15:18:37 +08:00] stdout error: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+- adapt-adaptiveContent
+- adapt-backButton
+- parallax-background-switcher
+- adapt-goTop
+- adapt-homeButton
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+
+Execution Time (2021-07-28 15:18:35 UTC+8)
+loading tasks          58ms  ▇▇ 3%
+build-config           30ms  ▇ 1%
+copy:componentAssets  210ms  ▇▇▇▇ 9%
+copy:componentFonts   156ms  ▇▇▇ 7%
+copy:extensionAssets  131ms  ▇▇▇ 6%
+copy:extensionFonts   143ms  ▇▇▇ 6%
+copy:coreFonts         34ms  ▇ 2%
+copy:libraries        331ms  ▇▇▇▇▇▇ 15%
+copy:required         321ms  ▇▇▇▇▇▇ 14%
+less:compile          736ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 33%
+Total 2.2s
+
+
+error [28 Jul 21 15:18:37 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+error [28 Jul 21 15:18:37 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+info [28 Jul 21 15:19:26 +08:00] Retrieving JSON
+info [28 Jul 21 15:19:26 +08:00] All theme assets processed
+info [28 Jul 21 15:19:26 +08:00] All assets processed
+info [28 Jul 21 15:19:26 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:19:26 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:19:26 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [28 Jul 21 15:19:26 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+error [28 Jul 21 15:19:29 +08:00] exec error: Error: Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+error [28 Jul 21 15:19:29 +08:00] stdout error: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+- adapt-adaptiveContent
+- adapt-backButton
+- parallax-background-switcher
+- adapt-goTop
+- adapt-homeButton
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+
+Execution Time (2021-07-28 15:19:27 UTC+8)
+loading tasks          62ms  ▇▇ 3%
+build-config           44ms  ▇ 2%
+copy:componentAssets  206ms  ▇▇▇▇ 9%
+copy:componentFonts   172ms  ▇▇▇▇ 8%
+copy:extensionAssets  136ms  ▇▇▇ 6%
+copy:extensionFonts   153ms  ▇▇▇ 7%
+copy:coreFonts         33ms  ▇ 1%
+copy:coreLibraries     23ms  ▇ 1%
+copy:libraries        330ms  ▇▇▇▇▇▇ 15%
+copy:required         339ms  ▇▇▇▇▇▇▇ 15%
+less:compile          703ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 31%
+Total 2.3s
+
+
+error [28 Jul 21 15:19:29 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+error [28 Jul 21 15:19:29 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+info [28 Jul 21 15:26:17 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:26:17 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:26:17 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:26:17 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:26:17 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:26:17 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:26:17 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:26:17 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:26:17 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:26:17 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:26:19 +08:00] Retrieving JSON
+info [28 Jul 21 15:26:19 +08:00] All theme assets processed
+info [28 Jul 21 15:26:19 +08:00] All assets processed
+info [28 Jul 21 15:26:19 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:26:19 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:26:19 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [28 Jul 21 15:26:19 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+error [28 Jul 21 15:26:22 +08:00] exec error: Error: Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+error [28 Jul 21 15:26:22 +08:00] stdout error: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+- adapt-adaptiveContent
+- adapt-backButton
+- parallax-background-switcher
+- adapt-goTop
+- adapt-homeButton
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+
+Execution Time (2021-07-28 15:26:20 UTC+8)
+loading tasks          43ms  ▇ 2%
+build-config           38ms  ▇ 2%
+copy:componentAssets  199ms  ▇▇▇▇ 9%
+copy:componentFonts   168ms  ▇▇▇▇ 8%
+copy:extensionAssets  135ms  ▇▇▇ 6%
+copy:extensionFonts   149ms  ▇▇▇ 7%
+copy:coreFonts         34ms  ▇ 2%
+copy:libraries        322ms  ▇▇▇▇▇▇▇ 15%
+copy:required         319ms  ▇▇▇▇▇▇ 15%
+less:compile          668ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 31%
+Total 2.1s
+
+
+error [28 Jul 21 15:26:22 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+error [28 Jul 21 15:26:22 +08:00] Command failed: grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+Fatal error: NameError: variable @navigation-color is undefined in src/extensions/adapt-goTop/less/goTop.less on line 12, column 21:
+11   color: @white;
+12   background-color: @navigation-color;
+13 
+
+
+info [28 Jul 21 15:26:37 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:26:37 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:27:01 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:27:01 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:27:04 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:27:04 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:27:06 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:27:06 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:27:08 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 15:27:08 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 15:27:11 +08:00] Retrieving JSON
+info [28 Jul 21 15:27:11 +08:00] All theme assets processed
+info [28 Jul 21 15:27:11 +08:00] All assets processed
+info [28 Jul 21 15:27:11 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 15:27:11 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 15:27:11 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [28 Jul 21 15:27:11 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+info [28 Jul 21 15:27:19 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+>> Cache skipping file: src/plugins.js
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-28 15:27:12 UTC+8)
+copy:componentAssets  211ms  ▇▇ 3%
+copy:componentFonts   161ms  ▇ 2%
+copy:extensionAssets  135ms  ▇ 2%
+copy:extensionFonts   142ms  ▇ 2%
+copy:libraries        373ms  ▇▇▇ 5%
+copy:required         346ms  ▇▇ 5%
+less:compile          843ms  ▇▇▇▇▇ 12%
+handlebars:compile    335ms  ▇▇ 5%
+loading javascript    183ms  ▇▇ 3%
+javascript:compile     4.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 57%
+Total 7.2s
+
+
+info [28 Jul 21 15:28:32 +08:00] Retrieving JSON
+info [28 Jul 21 15:28:32 +08:00] All theme assets processed
+info [28 Jul 21 15:28:32 +08:00] All assets processed
+info [28 Jul 21 15:29:27 +08:00] Retrieving JSON
+info [28 Jul 21 15:29:28 +08:00] All theme assets processed
+info [28 Jul 21 15:29:28 +08:00] All assets processed
+info [28 Jul 21 15:53:10 +08:00] Retrieving JSON
+info [28 Jul 21 15:53:10 +08:00] All theme assets processed
+info [28 Jul 21 15:53:10 +08:00] All assets processed
+info [28 Jul 21 15:54:50 +08:00] Retrieving JSON
+error [28 Jul 21 15:54:50 +08:00] Block '组块标题' does not contain any components
+
+error [28 Jul 21 15:54:50 +08:00] Block '组块标题' does not contain any components
+
+info [28 Jul 21 15:55:27 +08:00] Retrieving JSON
+error [28 Jul 21 15:55:28 +08:00] Block '组块标题' does not contain any components
+
+error [28 Jul 21 15:55:28 +08:00] Block '组块标题' does not contain any components
+
+info [28 Jul 21 15:55:46 +08:00] Retrieving JSON
+error [28 Jul 21 15:55:46 +08:00] Page '番茄工作法' does not contain any children
+
+error [28 Jul 21 15:55:46 +08:00] Page '番茄工作法' does not contain any children
+
+info [28 Jul 21 15:56:14 +08:00] Retrieving JSON
+error [28 Jul 21 15:56:14 +08:00] Page '番茄工作法' does not contain any children
+
+error [28 Jul 21 15:56:14 +08:00] Page '番茄工作法' does not contain any children
+
+info [28 Jul 21 15:58:50 +08:00] Retrieving JSON
+error [28 Jul 21 15:58:50 +08:00] Page '番茄工作法' does not contain any children
+
+error [28 Jul 21 15:58:50 +08:00] Page '番茄工作法' does not contain any children
+
+info [28 Jul 21 15:59:30 +08:00] Retrieving JSON
+error [28 Jul 21 15:59:30 +08:00] Course '工作法' does not contain any pages
+
+error [28 Jul 21 15:59:30 +08:00] Course '工作法' does not contain any pages
+
+info [28 Jul 21 15:59:33 +08:00] Retrieving JSON
+error [28 Jul 21 15:59:33 +08:00] Course '工作法' does not contain any pages
+
+error [28 Jul 21 15:59:33 +08:00] Course '工作法' does not contain any pages
+
+info [28 Jul 21 16:00:26 +08:00] Retrieving JSON
+error [28 Jul 21 16:00:26 +08:00] Block '组块标题' does not contain any children
+
+error [28 Jul 21 16:00:26 +08:00] Block '组块标题' does not contain any children
+
+info [28 Jul 21 16:01:01 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610100575baaca117a8fdbc2
+info [28 Jul 21 16:01:01 +08:00] Writing build to /adapt_authoring/temp/60f57c7a5b7af441f2cc5497/adapt_framework/courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/.rebuild
+info [28 Jul 21 16:01:04 +08:00] Retrieving JSON
+info [28 Jul 21 16:01:04 +08:00] All theme assets processed
+info [28 Jul 21 16:01:04 +08:00] All assets processed
+info [28 Jul 21 16:01:04 +08:00] 3.1. Ensuring framework build exists
+info [28 Jul 21 16:01:04 +08:00] 3.2. Using theme: 6100fd5f5baaca117a8fdbb7
+info [28 Jul 21 16:01:04 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [28 Jul 21 16:01:04 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build --theme=6100fd5f5baaca117a8fdbb7 --menu=adapt-contrib-boxMenu
+info [28 Jul 21 16:01:12 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 6100fd5f5baaca117a8fdbb7
+- adapt-contrib-narrative
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/610100575baaca117a8fdbc2/build/'
+>> Using theme '6100fd5f5baaca117a8fdbb7'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 6100fd5f5baaca117a8fdbb7 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+>> Cache skipping file: src/plugins.js
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-28 16:01:04 UTC+8)
+copy:componentAssets  220ms  ▇▇ 3%
+copy:componentFonts   167ms  ▇ 2%
+copy:extensionAssets  134ms  ▇ 2%
+copy:extensionFonts   142ms  ▇ 2%
+copy:libraries        330ms  ▇▇ 4%
+copy:required         357ms  ▇▇ 4%
+less:compile          916ms  ▇▇▇▇▇ 11%
+handlebars:compile    336ms  ▇▇ 4%
+loading javascript    167ms  ▇ 2%
+javascript:compile       5s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 62%
+Total 8.1s
+
+
+info [28 Jul 21 16:52:43 +08:00] Retrieving JSON
+error [28 Jul 21 16:52:43 +08:00] Block '组块标题' does not contain any children
+
+error [28 Jul 21 16:52:43 +08:00] Block '组块标题' does not contain any children
+
+info [28 Jul 21 16:53:02 +08:00] Retrieving JSON
+error [28 Jul 21 16:53:02 +08:00] Block '组块标题' does not contain any children
+
+error [28 Jul 21 16:53:02 +08:00] Block '组块标题' does not contain any children
+
+error [28 Jul 21 16:53:57 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 16:53:57 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 16:55:16 +08:00] course validation failed: title: Path `title` is required.
+error [28 Jul 21 16:55:16 +08:00] course validation failed: title: Path `title` is required.
+info [29 Jul 21 08:57:47 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 6101fd075baaca117a8fdbdf
+info [29 Jul 21 08:57:59 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 6101fd075baaca117a8fdbdf
+info [29 Jul 21 08:58:03 +08:00] Retrieving JSON
+info [29 Jul 21 08:58:03 +08:00] All assets processed
+info [29 Jul 21 08:58:03 +08:00] 3.1. Ensuring framework build exists
+info [29 Jul 21 08:58:03 +08:00] 3.2. Using theme: 60f57d315b7af441f2cc54b2
+info [29 Jul 21 08:58:03 +08:00] 3.3. Using menu: adapt-contrib-boxMenu
+info [29 Jul 21 08:58:03 +08:00] grunt server-build:prod --outputdir=courses/60f57c7a5b7af441f2cc5497/6101fd075baaca117a8fdbdf/build --theme=60f57d315b7af441f2cc54b2 --menu=adapt-contrib-boxMenu
+info [29 Jul 21 08:58:15 +08:00] stdout: Running "server-build:prod" (server-build) task
+
+Running "_log-vars" task
+The following will be included in the build:
+- adapt-contrib-boxMenu
+- 60f57d315b7af441f2cc54b2
+- adapt-contrib-text
+
+>> Using source at 'src/'
+>> Building to 'courses/60f57c7a5b7af441f2cc5497/6101fd075baaca117a8fdbdf/build/'
+>> Using theme '60f57d315b7af441f2cc54b2'
+>> Using menu adapt-contrib-boxMenu'
+
+Running "build-config" task
+>> Plugin folder name 60f57d315b7af441f2cc54b2 does not match package name adapt-contrib-vanilla.
+
+Running "copy:coreAssets" (copy) task
+
+
+Running "copy:componentAssets" (copy) task
+
+
+Running "copy:componentFonts" (copy) task
+
+
+Running "copy:extensionAssets" (copy) task
+
+
+Running "copy:extensionFonts" (copy) task
+
+
+Running "copy:menuAssets" (copy) task
+
+
+Running "copy:coreFonts" (copy) task
+Copied 3 files
+
+Running "copy:menuFonts" (copy) task
+
+
+Running "copy:themeAssets" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:themeFonts" (copy) task
+Created 1 directory, copied 1 file
+
+Running "copy:coreLibraries" (copy) task
+Copied 27 files
+
+Running "copy:libraries" (copy) task
+
+
+Running "copy:coreRequired" (copy) task
+Created 2 directories, copied 2 files
+
+Running "copy:required" (copy) task
+
+
+Running "language-data-manifests" task
+
+Running "less:compile" (less) task
+
+Running "handlebars:compile" (handlebars) task
+>> 1 file created.
+
+Running "javascript:compile" (javascript) task
+>> Cache disabled (--disable-cache): false
+>> Strict mode (config.json:build.strictMode): false
+
+Running "replace:dist" (replace) task
+
+Running "scripts:adaptpostbuild" (scripts) task
+
+Running "clean:temp" (clean) task
+>> 0 paths cleaned.
+
+Done.
+
+
+Execution Time (2021-07-29 08:58:03 UTC+8)
+copy:componentAssets  211ms  ▇ 2%
+copy:componentFonts   162ms  ▇ 1%
+copy:extensionAssets  130ms  ▇ 1%
+copy:extensionFonts   141ms  ▇ 1%
+copy:libraries        326ms  ▇▇ 3%
+copy:required         333ms  ▇▇ 3%
+less:compile          947ms  ▇▇▇▇ 8%
+handlebars:compile    350ms  ▇▇ 3%
+loading javascript    175ms  ▇ 1%
+javascript:compile     8.9s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 74%
+Total 11.9s
+
+
+error [02 Aug 21 11:00:46 +08:00] course validation failed: title: Path `title` is required.
+error [02 Aug 21 11:00:46 +08:00] course validation failed: title: Path `title` is required.
+error [02 Aug 21 11:01:01 +08:00] course validation failed: title: Path `title` is required.
+error [02 Aug 21 11:01:01 +08:00] course validation failed: title: Path `title` is required.
+error [02 Aug 21 11:01:23 +08:00] course validation failed: title: Path `title` is required.
+error [02 Aug 21 11:01:23 +08:00] course validation failed: title: Path `title` is required.
+error [02 Aug 21 11:01:45 +08:00] course validation failed: title: Path `title` is required.
+error [02 Aug 21 11:01:45 +08:00] course validation failed: title: Path `title` is required.
+info [02 Aug 21 11:03:54 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610760965baaca117a8fdbeb
+info [02 Aug 21 11:03:54 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 610760965baaca117a8fdbeb
+error [02 Aug 21 11:04:09 +08:00] course validation failed: title: Path `title` is required.
+error [02 Aug 21 11:04:09 +08:00] course validation failed: title: Path `title` is required.
+(node:29491) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29491) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:29491) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:29491) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+info [02 Aug 21 11:06:28 +08:00] configuration loaded from /adapt_authoring/conf/config.json
+info [02 Aug 21 11:06:28 +08:00] Supporting the following authentication types:
+info [02 Aug 21 11:06:28 +08:00] - local
+info [02 Aug 21 11:06:29 +08:00] Connection established: adapt-tenant-builder
+info [02 Aug 21 11:06:30 +08:00] Adapt authoring tool 0.10.5.
+info [02 Aug 21 11:06:30 +08:00] Adapt framework v5.14.0 (v5.15.2 is now available).
+info [02 Aug 21 11:06:30 +08:00] Run node upgrade.js to update your install.
+info [02 Aug 21 11:06:31 +08:00] Server started listening on port 5000
+error [02 Aug 21 11:06:43 +08:00] course validation failed: title: Path `title` is required.
+error [02 Aug 21 11:06:43 +08:00] course validation failed: title: Path `title` is required.
+info [02 Aug 21 11:06:56 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 6107614e339ccf73334bb3a5
+info [02 Aug 21 11:06:56 +08:00] Event:rebuildCourse triggered for Tenant: 60f57c7a5b7af441f2cc5497 Course: 6107614e339ccf73334bb3a5
